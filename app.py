@@ -20,7 +20,7 @@ def home_page():
 
 """
 SocketIO event handlers 
-socketIO basically allows data to be passed from flask to python
+socketIO basically allows data to be passed from flask to python, and vice versa
 """
 
 @sio.on('connect')
