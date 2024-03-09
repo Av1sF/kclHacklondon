@@ -1,0 +1,40 @@
+Optimisation Algorithms  
+ 
+●Find the ​best possible solution ​ to the problem posed  
+●The only optimisation algorithm that you must be aware of is ​Dijkstra’s  
+(pronounced dyke-struh’s) ​algorithm  
+ 
+Dijkstra’s Algorithm  
+ 
+●Finds the ​shortest path​ from a starting node to ​every other node ​ in a network  
+●Is similar to the breadth-first search algorithm, but keeps track of visited nodes  
+with a priority queue rather than a standard queue  
+●These points may be modelled as ​nodes ​in a ​weighted graph  
+●Used in ​ satellite navigation systems ​ to find the ​shortest route​ between locations  
+●Used in ​routers ​to send packets via the ​fastest route​ through a network  
+ 
+Dijkstra’s Algorithm Overview:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+www.pmt.education

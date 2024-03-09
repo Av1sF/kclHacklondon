@@ -1,0 +1,21 @@
+Bubble Sort Algorithm
+The bubble sort algorithm passes through the list evaluating pairs of items and ensuring
+the larger value is above the smaller value. It has a polynomial Big-O notation, O(n2).
+Below is the algorithm:
+________________________________________________________________________
+function bubbleSort(list, item)
+found = False
+i = 0
+while found = False and i < length(item)
+if list[i] > list[i+1]
+temp = list[i]
+list[i] = list[i+1]
+list[i+1] = temp
+endif
+i = i +1
+endwhile
+return list
+endfunction
+________________________________________________________________________
+https://bit.ly/pmt-cchttps://bit.ly/pmt-cc
+https://bit.ly/pmt-edu

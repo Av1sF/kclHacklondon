@@ -1,0 +1,29 @@
+Use of an IDE (Integrated Development Environment) 
+ 
+●Program ​which provides a ​set of tools​ to make it easier for programmers to 
+write, develop and debug code  
+● Features of IDEs include: 
+○ Stepping 
+○ Variable watch 
+○ Breakpoint 
+○ Source code editor 
+○ Debugging tools 
+ 
+ 
+Use of object-oriented techniques 
+ 
+● Object-oriented languages are built around the idea of classes 
+● A ​class ​is a ​template for an object 
+● Classes define the ​state and behaviour of an object  
+● Object state is given by ​attributes ​while behaviour is defined by ​methods 
+● An ​object ​is a ​particular instance of a class  
+●Attributes cannot be directly edited ​ in a technique called ​encapsulation  
+● Top-down design applies encapsulation to modules, which are also built to be 
+self-contained and reusable 
+ 
+ 
+ 
+ 
+ 
+ 
+www.pmt.education

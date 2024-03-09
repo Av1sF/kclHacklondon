@@ -1,0 +1,16 @@
+Graph Traversals  
+●Graph-traversal is the process of​ visiting each vertex​ in a ​graph​.  
+●Can be performed on any ​connected graph  
+ 
+Depth First Search  
+● A ​branch​ is​ fully explored ​before backtracking  
+●Uses a​ stack  
+●Used for ​navigating a maze  
+ 
+Breadth First Search  
+●A ​node​ is​ fully explored​ before venturing on to the next node  
+●Uses a ​queue  
+●Useful for determining the ​shortest path on an unweighted  
+graph  
+ 
+www.pmt.education

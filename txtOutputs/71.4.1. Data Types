@@ -1,0 +1,20 @@
+ 
+Character Sets for Representing Text 
+ 
+● A published collection of codes and corresponding characters 
+● Can be used by computers for representing text 
+● Two widely used character sets are ASCII and Unicode 
+ 
+ASCII 
+● American Standard Code for Information Interchange 
+● The leading character set before Unicode 
+● Uses 7 bits to represent 2 ​7​ = 128 different characters 
+● ASCII soon came into trouble when computers needed to represent other 
+languages with different characters 
+ 
+Unicode 
+● Solves the problem of ASCII’s limited character set 
+● Uses a ​varying number of bits ​ allowing for over 1 million different characters 
+● Many characters have yet to be allocated 
+● Enough capacity to represent a wealth of different languages, symbols, and emoji 
+www.pmt.education

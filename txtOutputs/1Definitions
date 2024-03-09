@@ -1,0 +1,21 @@
+in such a way that they are always sorted, until the full single list is obtained.
+O(1) (Constant time/space): An algorithm that always takes a constant amount of time or
+memory space to execute, regardless of the input size.
+O(2n) (Exponential time/space): An algorithm whose execution time or required memory
+space grows exponentially with input size (higher complexity than polynomial).
+O(log(n)) (Logarithmic time/space): An algorithm whose execution time or required
+memory space grows logarithmically with input size (lower complexity than polynomial).
+O(n) (Linear time/space): An algorithm whose execution time or required memory space is
+directly proportional to the size of its input.
+O(nk) (Polynomial time/space): An algorithm whose execution time or required memory
+space is proportional to the input size raised to the power of a constant (k). Eg. O(n2), O(n3)
+etc.
+Quick Sort: A O(n log(n)) sorting algorithm similar to Merge Sort, but relies on choosing a
+pivot element whenever the list is split. Elements greater than the pivot go into one sub list,
+while the rest go into the other. All sublists of length 1 will already be in a sorted order.
+Space Complexity: A measure of the amount of memory space needed by an algorithm to
+solve a particular problem of a given input size.
+Time Complexity: A measure of the amount of time needed by an algorithm to solve a
+particular problem of a given input size.
+https://bit.ly/pmt-cchttps://bit.ly/pmt-cc
+https://bit.ly/pmt-edu

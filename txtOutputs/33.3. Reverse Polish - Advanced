@@ -1,0 +1,5 @@
+RPN Uses  
+As seen above, RPN can be ​executed ​ on a ​stack​. Due to this, RPN is ideal for  
+interpreters ​ which are based on a stack, e.g. ​Bytecode ​and ​PostScript​. For more  
+information, follow the links listed in the extra resources section.  
+www.pmt.education

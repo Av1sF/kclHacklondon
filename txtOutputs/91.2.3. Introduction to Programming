@@ -1,0 +1,34 @@
+ 
+Assembly Language 
+ 
+● Low level language that is the ​next level up from machine code  
+●Uses mnemonics ​, which are ​abbreviations for machine code instructions  
+● Commands used are ​processor-specific  
+● Each line in assembly language is equivalent to one line of machine code 
+ 
+Below is a list of the mnemonics you need to be aware of and be able to use:  
+ 
+Mnemonic  Instruction  Function  
+ADD  Add Add the value at the given memory address to the  
+value in the Accumulator  
+SUB  Subtract  Subtract the value at the given memory address  
+from the value in the Accumulator  
+STA  Store  Store the value in the Accumulator at the given  
+memory address  
+LDA  Load  Load the value at the given memory address into the  
+Accumulator  
+INP  Input  Allows the user to input a value which will be held in  
+the Accumulator  
+OUT  Output  Prints the value currently held in the Accumulator  
+HLT  Halt Stops the program at that line, preventing the rest of  
+the code from executing.  
+DAT  Data  Creates a flag with a label at which data is stored.  
+BRZ  Branch if zero  Branches to a given address if the value in the  
+Accumulator is zero. This is a conditional branch.  
+BRP  Branch if positive  Branches to a given address if the value in the  
+Accumulator is positive. This is a conditional branch.  
+BRA  Branch always  Branches to a given address no matter the value in  
+the Accumulator. This is an unconditional branch.  
+ 
+ 
+www.pmt.education

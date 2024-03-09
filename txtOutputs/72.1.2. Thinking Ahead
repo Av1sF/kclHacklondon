@@ -1,0 +1,34 @@
+ 
+reusable components means that they can be ​reused in future projects ​,​ saving 
+development costs ​. However, it may not always be possible to integrate existing 
+components due to ​compatibility issues ​ with the rest of the software. This might mean 
+these components need to be modified to work with existing software, which can  
+sometimes be more costly and time-consuming than developing them in-house.  
+ 
+ 
+A Level only 
+Caching 
+ 
+Caching is the process of ​storing instructions or values in cache memory ​ after they have 
+been used, as they ​ may be used again ​. This ​saves time​ which would have been needed to 
+retrieve the instructions from secondary storage again. ​Frequently-accessed web pages  
+are cached which means that the next time one of these pages is accessed, content can  
+be​ loaded without delay ​. This also means images and text do not have to be downloaded 
+multiple times, ​ freeing up bandwidth ​ for other tasks on a network. 
+ 
+A variation of caching is ​prefetching ​, in which ​algorithms predict which instructions are 
+likely to soon be fetched ​. These instructions are then ​loaded and stored in cache before 
+they are fetched​. By thinking ahead, therefore, ​less time is spent waiting ​for instructions to 
+be loaded into RAM from the hard disk. 
+ 
+One of the biggest limitations to prefetching is the ​accuracy of the algorithms used ​, as they 
+can ​only provide an informed prediction ​ as to the instructions which are likely to be used. 
+Similarly, the effectiveness of caching depends on how well a caching algorithm is able to  
+manage the cache. Larger caches take a long time to search and so ​cache size limits how 
+much data can be stored ​.  
+ 
+In general, this form of thinking ahead can be ​difficult to implement ​ but can significantly 
+improve performance if implemented effectively.  
+ 
+ 
+www.pmt.education

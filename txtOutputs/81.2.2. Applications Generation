@@ -1,0 +1,33 @@
+ 
+ Lower security.  Users cannot modify and  
+improve code.  
+ 
+  
+Translators 
+ 
+● A program that ​converts source code into object code ​. There are three types:  
+ 
+Compiler 
+● Translate high-level code into machine code ​all at once ​.  
+●Initial compilation process is longer ​ than using other translators. 
+● Compiled code is ​platform-specific 
+● Compiled code can be run ​without a translator ​ present. 
+ 
+Interpreter 
+●Translate and execute code line-by-line ​.  
+● Produce an error if a line contains an error.  
+●Slower than running compiled code ​. 
+●Correct interpreter required to run ​ on different platforms. 
+● Code is ​platform-independent.  
+● Useful for ​testing ​code. 
+ 
+Assembler  
+● Assembly code is a low-level language that is ​platform specific ​. 
+● Assemblers translate assembly code into machine code. 
+●Each line of assembly code is equivalent to almost one line of machine code ​. 
+ 
+ 
+ 
+ 
+ 
+www.pmt.education

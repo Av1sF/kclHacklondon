@@ -1,0 +1,27 @@
+Next we look at position 2 and find Apple, this is the data we’re looking for and so the  
+algorithm returns 2 and terminates. 
+Example 2 
+Look at how this algorithm finds the letter R in the first 20 characters of the alphabet and  
+compare it to binary search above. It’s clear from this example that the algorithm is much  
+less efficient than binary search. 
+ 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+ 
+www.pmt.education

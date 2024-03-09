@@ -1,0 +1,21 @@
+Harvard architecture has physically separate memories for instructions and data, more  
+commonly used with embedded processors.This is useful for when memories have  
+different characteristics ​, i.e. instructions may be read only, while data may be read-write.  
+This also allows you to optimise the size of individual memory cells and their buses  
+depending on your needs, i.e. the instruction memory can be designed to be larger so a  
+larger word size can be used for instructions.  
+ 
+Advantages of Von Neumann  
+Architecture   Advantages of Harvard Architecture   
+Cheaper to develop ​ as the control unit is  
+easier to design  Quicker execution ​ as data and instructions  
+can be fetched in parallel.   
+Programs can be ​optimised in size  Memories can be different sizes ​, which can  
+make more efficient use of space  
+ 
+Contemporary Processing  
+Contemporary processors use a ​combination of Harvard and Von Neumann ​ architecture. 
+Von Neumann is used when working with data and instructions in main memory, but uses  
+Harvard architecture to divide the cache into instruction cache and data cache.  
+ 
+www.pmt.education

@@ -1,0 +1,43 @@
+ 
+Layout, Colour Paradigms and Character Sets 
+ 
+Layout 
+When web developers design websites, it is important that they consider ​who will be 
+viewing the website ​ and ensure the website is designed to accommodate for all of these  
+people. The ​Equality Act​ introduced in 2010 makes it ​illegal to discriminate against 
+providing a service to a certain group of people ​, which makes this even more important. 
+ 
+Websites must be laid out in a way that makes it ​easy for users to navigate between 
+pages ​. Menus are a common tool used to provide function and in English-speaking  
+countries, menus are displayed on the left-hand side of the page. In countries such as  
+Egypt or the UAE, where Arabic is the primary language, these menus may instead be  
+displayed on the right-hand side of the page as Arabic is read from right to left. These sort  
+of​ design considerations ​ must be made by developers in order to make websites 
+accessible to all people ​. This is particularly important for online stores, as a well laid-out  
+website which is easy-to-navigate will ​attract more customers​. 
+ 
+Websites must also be designed in a way that makes them accessible to people with  
+visual impairments ​or other disabilities. Some people may need to ​enlarge text or alter the 
+contrast ​in order to view the contents of the website comfortably and a good website will  
+cater for this. Websites should provide ​alternative text​ (alt text) for images and provide a 
+screen magnifier option ​ so people with visual impairments are not disadvantaged. 
+Transcripts ​of audio files should be provided for those with hearing impairments.  
+ 
+Colour Paradigms 
+When choosing a colour scheme for a website, web developers must take into account  
+how different colours are interpreted ​ around the world. Some colours are regarded as 
+unlucky in certain cultures and have other negative connotations. For example, while white  
+is associated with mourning in the Middle East, it is associated with purity in Western  
+cultures. Typically, a neutral colour scheme with widely positive connotations will be  
+chosen, such as green which represents luck and nature. 
+ 
+Character Sets 
+In order to make websites accessible to as wide an 
+audience as possible, the contents must be ​translated into 
+multiple languages ​. Some character sets are too small to 
+accommodate all of the characters of a language. ASCII 
+only uses seven bits and so is unable to represent all of the 
+characters in the Chinese language. Therefore ​ Unicode is 
+the preferred character set ​as it is able to represent ​ over a 
+million characters ​.  
+www.pmt.education

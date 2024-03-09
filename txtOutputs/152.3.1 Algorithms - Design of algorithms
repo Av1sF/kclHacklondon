@@ -1,0 +1,42 @@
+b Example answer:
+PROCEDURE
+ChangeInteger(Value:INTEGER)
+INTEGER P, X, M
+BOOLEAN NegativeFlag = FALSE
+IF Value < 0 THEN
+Value = Value*–1
+NegativeFlag = TRUE
+END IF
+REPEAT
+P = Value DIV 10
+X = P* 10
+M = Value –X
+OUTPUT M
+Value = P
+UNTIL Value <= 0
+IF NegativeFlag = TRUE THEN
+OUTPUT ‘–‘
+ELSE
+OUTPUT ‘+’
+END IF
+END PROCEDURE
+Checking to see if Value is less than
+zero
+Correct output of negative value digits
+…
+… and still correctly outputting positive
+value digits.
+Output of correct sign4
+Alternative possible solution is to use
+ABS(M).
+Examiner's Comments
+Few candidates achieved all the marks
+here but many did spot the need to check if
+value < 0 and convert the –ve to +ve or
+change the sign. They were some
+interesting ways of converting (not all
+correct) ‐ve to+ve e.g. value = value ‐
+(2*value).
+Total 9
+Powered by TCPDF (www.tcpdf.org)© OCR 2019. 9 of 9Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

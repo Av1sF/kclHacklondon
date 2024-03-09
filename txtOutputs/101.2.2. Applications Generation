@@ -1,0 +1,29 @@
+ 
+Linkers, Loaders and Use of Libraries 
+ 
+Linkers 
+ 
+Linkers, Loaders and Use of Libraries 
+ 
+Linkers 
+● Software that​ links external modules and libraries included within the code ​.  
+Static Linker 
+● Module/library code is ​copied directly ​ into the file.  
+●Increases the size of the file ​.  
+Dynamic Linker 
+●Addresses of modules/ libraries ​ are added to the file. 
+●External module/library updates automatically feed through ​ to the main file. 
+ 
+Loaders 
+● Programs provided by the operating system.  
+●Fetches the library/ module from the given memory location ​. 
+ 
+Use of Libraries 
+●Pre-compiled programs ​which can be incorporated within other programs.  
+● Error-free 
+●Save time and effort ​of developing and testing modules. 
+●Can be reused ​ across multiple programs 
+● Save programmers from ​‘reinventing the wheel’   
+ 
+ 
+www.pmt.education

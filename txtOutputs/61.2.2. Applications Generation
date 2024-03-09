@@ -1,0 +1,33 @@
+ 
+ 
+Optimisation 
+Searches through the code for areas it could be made more efficient to ​ reduce execution 
+time ​but is a ​very time-consuming ​ of compilation.  
+Redundant parts of code are removed ​. Repeated sections of code are replaced with more 
+efficient code. Excessive optimisation may alter the way in which the program behaves.  
+ 
+Linkers, Loaders and Use of Libraries 
+ 
+Linkers 
+A piece of software responsible for ​ linking external modules and libraries included within 
+the code​.  
+Static Linker 
+Modules and libraries are ​added directly ​ into the main file. This ​increases the size of the 
+file​.  
+Dynamic Linker 
+Addresses of modules and libraries ​ are included in the file. ​File size does not change ​ and 
+external module/library updates automatically feed through to the main file ​. 
+ 
+Loaders 
+Programs provided by the operating system. When a file with dynamically linked  
+addresses is executed, the ​loader retrieves the library or module from the specified 
+memory location ​. 
+ 
+Use of Libraries 
+Pre-compiled programs ​which can be incorporated within other programs. They are 
+ready-to-use and error free ​, so ​save time ​developing and testing modules. Libraries ​can be 
+reused ​ across multiple programs and ​save programmers from having to ‘reinvent the 
+wheel’ ​ and instead make use of others’ expertise.  
+ 
+ 
+www.pmt.education

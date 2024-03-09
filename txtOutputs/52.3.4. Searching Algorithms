@@ -1,0 +1,27 @@
+ 
+Example 2 
+Look at how this algorithm finds the letter R in the first 20 characters of the alphabet and  
+compare it to binary search above. It’s clear from this example that the algorithm is much  
+less efficient than binary search, particularly when the search value is towards the end of  
+the data to be searched. 
+ 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+A B C D E F G H I J K L M N O P Q R S T 
+ 
+www.pmt.education

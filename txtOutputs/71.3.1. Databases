@@ -1,0 +1,33 @@
+● This will allow the table to be sorted on this attribute.  
+ 
+Entity Relationship Modelling  
+●One-to-one ​: Each entity can only be linked to one other entity. 
+●One-to-many​: One table can be 
+associated with many other tables. 
+●Many-to-many ​: One entity can be 
+associated with many other entities and 
+the same applies the other way round  
+● The image shows how this is 
+represented diagrammatically.  
+ 
+ 
+Handling Data 
+ 
+Capturing Data  
+● Data needs to be input into the database and there are various ways of doing this.  
+● The chosen method is always dependent on the context.  
+● Data may need to be ​manually entered ​ or scanned using methods such as 
+Magnetic Ink Character Recognition (MICR) ​ which is used with cheques. 
+ 
+Selecting and Managing Data   
+● Selecting the correct data is an important part of ​data preprocessing ​. 
+● This could involve only selecting data that fits a certain criteria. 
+● Collected data can be managed using SQL to sort, restructure and select certain 
+sections.  
+ 
+Exchanging Data 
+● Exchanging data is the process of ​transferring the data ​ that has been collected.  
+● One common example of this is ​EDI (Electronic Data Interchange) ​.  
+ 
+ 
+www.pmt.education

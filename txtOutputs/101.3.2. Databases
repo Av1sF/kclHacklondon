@@ -1,0 +1,42 @@
+SET column1 = value1, column2 = value2 …  
+Where columnX = value   
+ 
+DELETE  
+● This is used to ​delete a record ​ from a database table.  
+ 
+For example: 
+DELETE FROM TableName  
+WHERE columnX = value  
+ 
+Referential Integrity   
+● Referential integrity is the process ​ensuring consistency ​. 
+● This makes sure that information isn’t removed if it is required elsewhere in a linked 
+database.  
+ 
+ 
+Transaction Processing  
+● A transaction is defined as a ​single operation executed on data ​. 
+● Transactions must be processed in line with ACID. 
+ 
+ACID(Atomicity, Consistency, Isolation, Durability)  
+Atomicity: 
+● A transaction must be ​processed in its entirety or not at all ​.  
+Consistency: 
+● A transaction must keep the ​referential integrity rules ​ between linked tables. 
+Isolation: 
+● Simultaneous execution of transactions must lead to the ​same result​ as if they were 
+executed one after the other. 
+Durability 
+● Once a transaction has been executed it ​will remain so ​. 
+ 
+Record Locking  
+- The process of ​preventing simultaneous access of records ​ in a database. 
+- This is used to ​prevent inconsistencies ​ or a ​loss of updates ​. 
+- If anyone tries to access the same record they will not be able to.  
+- The biggest problem with this is ​deadlock ​.  
+ 
+Redundancy  
+- The process of having one or more copies of the data in ​physically different 
+locations ​.  
+- This means that if there is any damage to one copy the others can be recovered. 
+www.pmt.education

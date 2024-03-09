@@ -1,0 +1,10 @@
+ 
+ 
+Another test strategy is performing a ​dry-run ​of a program, which is when programmers 
+manually work through ​ the code. A ​trace table​ is used to note down the ​logical flow  
+through the program alongside when and which variables are updated. If an unexpected  
+result is produced, the cause of this can be traced and fixed. The downside to dry-runs is  
+that they cannot pick up on ​run-time​/​execution errors ​. 
+ 
+ 
+www.pmt.education

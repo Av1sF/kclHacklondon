@@ -1,0 +1,32 @@
+The candidate provides a limited
+discussion which is narrow in focus.
+Judgements if made are weak and
+unsubstantiated.
+The information is basic and comunicated 
+in an unstructured way. The information is
+supported by limited evidence and the
+relationship to the evidence may not be
+clear.
+0 marks
+No attempt to answer the question or
+response is not worthy of credit.Not all of the process will be
+paralleliseable. X processors does not
+mean it will run in 1/xth of the time of
+one processor.
+Examiner’s Comment:
+It was clear that many candidates had not
+covered the concept of concurrency and
+how it allows different processes to occur
+at the same time. Strong candidates
+appreciated that this could be simulated on
+a single core with time slicing or
+implemented within a parallel architecture.
+Many candidates lost sight of the fact that
+answers needed to be related to computer
+science rather than a restaurant chain and
+could not explain the underlying computer
+science that would allow a solution to be
+delivered.
+Total 9
+Powered by TCPDF (www.tcpdf.org)© OCR 2019. 6 of 6Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

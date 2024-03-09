@@ -1,0 +1,36 @@
+■ Primary disadvantage is ​cost 
+■ Another disadvantage is limited lifespan 
+● When a page is written to, the voltage required increases 
+● Over time, this will become too high 
+ 
+RAM and ROM 
+ 
+● Two types of ​primary storage  
+● Store information like ​code instructions ​ to execute and ​files ​which are ​required by 
+running programs  
+● RAM 
+○ Random access memory 
+○ A type of ​fast, volatile ​main memory 
+○ Used to store data and programs that the computer is currently using 
+○ Speeds up the computer’s execution 
+○ Higher access speeds than even flash memory 
+○More expensive per gigabyte ​ than secondary storage devices 
+○ Computers often have only 4 or 8 GB or RAM 
+● ROM 
+○ Read only memory 
+○ Non-volatile 
+○Cannot ​be modified 
+○ Once programmed, the state of the memory cells inside does not changed 
+○ Useful for storing fixed sequences of instructions like a computer’s startup 
+(bootstrap) routine 
+ 
+Virtual Storage 
+ 
+● Name given to storing information ​remotely ​so that it can be accessed by any 
+computer with access to the same system, for example over the Internet 
+● Examples include ​cloud storage services ​and networked storage used in offices and 
+schools 
+● As internet speeds increase, virtual storage is becoming more popular  
+● Often an​ abstraction of multiple drives ​acting like one 
+● Disadvantages include limitations of a user’s network speed and ​ high costs 
+www.pmt.education

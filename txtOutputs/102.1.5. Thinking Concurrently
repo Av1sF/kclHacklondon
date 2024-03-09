@@ -1,0 +1,11 @@
+ 
+Drawbacks of concurrent processing 
+● Concurrent processing can take longer to complete when large numbers of users or 
+tasks are involved as processes cannot be completed at once. 
+● There is an​ overhead in coordinating ​ and switching between processes, which 
+reduces program throughput. 
+● Just as with parallel processing, not all tasks are suited to being broken up and 
+performed concurrently. 
+ 
+ 
+www.pmt.education

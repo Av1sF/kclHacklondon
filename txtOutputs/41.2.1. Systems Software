@@ -1,0 +1,42 @@
+Device Drivers 
+ 
+Device drivers are computer programs which are provided 
+by the operating system and allow the operating system to 
+interact with hardware ​.  
+ 
+When a piece of hardware is used, the device driver 
+communicates this request to the operating system ​ which 
+can then produce the relevant output. 
+ 
+Device drivers are ​specific to the computer’s architecture ​, so 
+different drivers must be used for different device types such 
+as smartphones, games consoles and desktop PCs. Device 
+drivers are also ​specific to the operating system ​ installed on the device.  
+ 
+ 
+Virtual Machines 
+ 
+A virtual machine is a ​theoretical computer ​ in that it is 
+a​software implementation of a computer system ​. It provides 
+an ​environment with a translator ​ for intermediate code to 
+run. 
+ 
+Intermediate Code 
+Code that is ​halfway between machine code and object code ​is called intermediate code. 
+This is​ independent of the processor architecture ​ so can be runacross different machines 
+and operating systems.  
+ 
+Virtual machines are commonly used to ​test programs on different operating systems ​, 
+saving the time and money of purchasing multiple devices for testing. However, running  
+intermediate code in a virtual machine can be ​considerably slower.  
+ 
+Other uses of virtual machines include: 
+- Protection from malware 
+Malware will affect the virtual machine rather than the device being used.  
+- Running incompatible software 
+Programs specific to different operating systems or different versions of an  
+operating system can be run within a VM, saving time and money required  
+to purchase the hardware. 
+ 
+ 
+www.pmt.education

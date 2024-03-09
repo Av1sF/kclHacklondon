@@ -1,0 +1,43 @@
+ 
+Object Oriented Languages 
+ 
+Classes, Objects, Methods and Attributes  
+● A ​class ​is a​ template for an object ​ and defines the ​state and behaviour of an object 
+● State is given by ​attributes ​which give an ​object’s properties  
+● Behaviour is defined by the ​methods,​ which ​describe the actions it can perform  
+● Classes can be used to ​ create objects​ by a process called ​instantiation 
+● An ​object ​is a ​particular instance of a class ​, and a class can be used to create 
+multiple objects 
+● A ​setter ​is a method that​ sets the value of a particular attribute  
+● A ​getter ​is another special method used in OOP which ​ retrieves the value of a given 
+attribute 
+● Getters and setters ensure​ attributes cannot be directly accessed and edited ​ but 
+can only be altered by public methods ​. This is called ​encapsulation.  
+● Every class must also have a ​constructor method which ​allows a new object to be 
+created 
+ 
+Inheritance  
+● Process in which ​subclass ​inherits all of the methods and attributes ​ ​of the  
+superclass 
+● Subclass can also have its ​own additional properties 
+ 
+Polymorphism 
+● Enables ​objects to behave differently depending on their class  
+Overloading 
+● Passing in ​different parameters ​into a method 
+Overriding 
+●Redefining a method ​ so that it ​functions differently ​and ​produces a different output  
+ 
+Advantages of OOP 
+● High level of ​reusability 
+●Code made more reliable ​through encapsulation 
+● Makes code easy to ​ maintain and update 
+● Casses can be reused as a ​ black box​ which ​saves time and effort 
+ 
+Disadvantages of OOP 
+● Requires an ​alternative style of thinking  
+● Not suited to ​all types of problems 
+● Generally ​unsuitable for smaller problems  
+ 
+ 
+www.pmt.education

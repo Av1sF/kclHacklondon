@@ -1,0 +1,45 @@
+ 
+Writing and following algorithms  
+ 
+● Algorithm = a ​set of instructions used to solve a problem  
+● All good algorithms have certain ​key qualities: 
+○ Inputs must be ​clearly defined ​ - what is valid and what is invalid? 
+○ Must always produce a ​valid output for any defined input 
+○ Must be able to ​deal with invalid inputs  
+○ Must always reach a ​ stopping condition 
+○ Must be ​well-documented ​ for reference 
+○ Must be ​well-commented ​ so modifications can easily be made  
+ 
+Test Strategies 
+ 
+There are various types of testing that can be carried out: 
+ 
+● Alpha testing 
+○Carried out ​ ​in-house ​ by software development teams 
+○ Bugs are pinpointed and fixed 
+● Beta testing 
+○Carried out by end-users ​. 
+○Feedback from users ​ informs next stage of development 
+● White box testing 
+○ Carried out by software development teams  
+○Internal structure of program ​ is recognised  
+○ All ​possible routes through the program ​ are tested 
+● Black box testing 
+○Testers are not aware of the internal structure ​ of the software 
+○ Test plan traces through ​ inputs and outputs  
+ 
+● Testing pinpoints any flaws in the software 
+● Software should produce the ​ correct output​ or an ​appropriate error for any input 
+● There are three types of data that programmers must consider when testing: 
+○ Normal 
+Data within the range and of the data type considered as valid 
+○ Boundary  
+Data that falls at either of the ends of the valid data range 
+○ Erroneous 
+Data that falls outside of the valid data range 
+● Another test strategy is performing a ​dry-run 
+● Programmers manually work through the code and produce a ​ trace table 
+● This records ​when and which variables are updated  
+ 
+ 
+www.pmt.education

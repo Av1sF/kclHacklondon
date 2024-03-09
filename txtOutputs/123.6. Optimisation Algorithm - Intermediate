@@ -1,0 +1,16 @@
+D  0​A  11​C  8​A  14​B  23​D 
+We now know that the shortest possible path between the nodes A and E has a weight  
+of 23. In order to find the path that we took, we make use of the subscript letters.  
+ 
+Start from the finishing node, E. The value of 23 at E is marked as from D. The final  
+value in D’s column is 14 from B. Looking at B’s column, we see that it is 11 from C.  
+Finally, C is marked as 8 from A.  
+ 
+ 
+This process, which the diagram above represents, results in the nodes E, D, B, C, A.  
+Reverse this order to get the shortest path through the network.  
+ 
+The shortest path through the network from A to E is  
+A, C, B, D, E and has a weight of 23 minutes.  
+ 
+www.pmt.education

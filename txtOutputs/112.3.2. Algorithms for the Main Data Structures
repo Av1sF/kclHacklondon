@@ -1,0 +1,20 @@
+ 
+ 
+dequeue() 
+● Removes the item at the front of the queue 
+● Items are removed from a queue from the ​position of the front pointer  
+● Just as with stacks, it’s important to check that the queue​ isn’t empty 
+● After the element has been removed, the front pointer must be incremented 
+ 
+dequeue() 
+if isEmpty(): 
+return error 
+else: 
+toDequeue = A[front] 
+A[front] = “” 
+front += 1 
+return toDequeue 
+endif 
+ 
+ 
+www.pmt.education

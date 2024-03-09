@@ -1,0 +1,42 @@
+ 
+● Multi-user 
+- Multiple users make use of one computer.  
+- A ​scheduling algorithm Is used ​ to allocate processor time fairly between jobs 
+and prevent ​ processor starvation. 
+● Real Time 
+- Used in ​time-critical computer systems ​ and designed to perform a task within 
+a ​guaranteed time frame ​. 
+ 
+BIOS 
+ 
+●Basic Input Output System​ is the first program that runs when a computer system is 
+switched on.  
+● Runs a series of tests before the operating system is loaded into memory: 
+●POST (Power-on self test)​ which ensures that all hardware is correctly connected 
+and functional 
+● Checking the CPU clock, memory and processor  
+● Testing for external memory devices  
+ 
+ 
+Device Drivers 
+ 
+● Computer programs that allow the operating system to ​interact with hardware ​.  
+● Are ​specific to the computer’s architecture ​.  
+●Specific to the operating system   
+ 
+Virtual Machines 
+ 
+● A ​theoretical computer ​ and a ​software implementation of a computer system ​. 
+● Provides an ​environment with a translator ​ for intermediate code to run. 
+ 
+Intermediate Code 
+●Code halfway between machine code and object code ​is called intermediate code.  
+●Independent of processor architecture ​ so can run across different machines and 
+operating systems.  
+● Takes longer to execute than low-level code 
+ 
+Uses of virtual machines include: 
+● Testing programs 
+● Protection from malware 
+● Running software compatible with different versions/ types of operating systems  
+www.pmt.education

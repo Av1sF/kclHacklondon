@@ -1,0 +1,28 @@
+Next, Julia is enqueued. The name is added ​at the position of the back pointer ​and the 
+back pointer is moved to position 6. 
+ 
+A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] 
+ Rajiv  Sam Jayden  Charlie  Julia   
+ ↑     ↑  
+ Front      Back   
+Now we check the size of the queue. ​6-1 = 5​  and so ​5 ​ is returned. The next operation is 
+peek​  which returns the item at the front of the queue, ​Rajiv ​ but does not change the 
+queue otherwise. 
+The next operation is ​size​ , and because the queue hasn’t changed as a result of the 
+peek operation, ​5 ​is returned again. 
+ 
+Next a ​dequeue​  is performed. Rajiv is returned, removed from the queue and the front  
+pointer moved to Sam. 
+ 
+A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] 
+  Sam Jayden  Charlie  Julia   
+  ↑    ↑  
+  Front     Back   
+Finally, the ​isEmpty​  command is performed. Because the values of front and back ​are 
+not the same​, False is returned. 
+ 
+The output of the operations is therefore: 
+ 
+Alex, 5, Rajiv, 5, Rajiv, False 
+ 
+www.pmt.education

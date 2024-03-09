@@ -1,0 +1,37 @@
+Searching Algorithms  
+ 
+●A ​searching algorithm ​ is used to find a ​specified data item ​ within a ​set of data  
+ 
+ 
+Linear Search   
+ 
+●Can be conducted on ​any list​, even if the data isn’t in order  
+●Works by inspecting every item in a list ​one by one ​ until the desired item is found  
+●Very simple ​ to program  
+●Comparatively ​high time complexity ​ of​ ​O(N)  
+●If the target ​does not exist​ in the list, the algorithm will still ​check every single  
+item​ in the list  
+ 
+ 
+Binary Search  
+ 
+●Can only be used on ​ordered ​lists 
+●Works by looking at the ​midpoint ​of a list and determining if the ​target ​is ​higher or  
+lower ​than the midpoint  
+●More efficient than the linear search algorithm  
+●Midpoint calculated by ​adding the first and last positions ​ of the data, and ​dividing  
+by two  
+●The list of data is ​halved ​with each iteration  
+●Can be implemented both ​iteratively ​and ​recursively  
+●Good time complexity of ​O(logN)  
+ 
+ 
+ 
+Binary Tree Search  
+ 
+●The same as a binary search, but conducted on a ​ ​binary tree  
+●A binary tree is a ​rooted​,​ ordered tree ​ in which ​each node has no more than 2  
+children  
+●Can be implemented both ​iteratively ​and ​recursively  
+●Same time complexity as binary search, ​O(logN)  
+www.pmt.education

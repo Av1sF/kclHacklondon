@@ -1,0 +1,39 @@
+Data Packets 
+● Segments of data 
+● Contain various pieces of information 
+○ Header 
+■ Sender and the recipient’s ​IP addresses 
+■Protocol​ being used 
+■Order ​of the packets 
+■Time To Live ​/ ​Hop Limit 
+○ Payload 
+■ The raw data 
+○ Trailer 
+■Checksum ​, or ​cyclic redundancy check  
+ 
+ 
+Client-Server and Peer-to-Peer 
+ 
+Client-Server 
+● Client-Server networks have ​terminals ​ known as clients connected to a ​server  
+● The server is just a​ powerful central computer  
+● The server holds all of the ​important information ​ and has ​extra processing power  
+and the clients can request to use it 
+ 
+Advantages of Client-Server   Disadvantages of Client-Server   
+●More ​secure  
+●Central backups ​eliminate the need  
+for client backups  
+●Sharing data and resources  
+between clients  ●Expensive ​ to set up  
+●Staff with training are required to  
+maintain the server   
+ 
+ 
+Peer-to-Peer networks 
+● Computers are ​ connected to each other ​ so that they can share files 
+●Inexpensive ​to set up 
+● Allow users to ​share resources 
+●Easy to maintain  
+ 
+www.pmt.education

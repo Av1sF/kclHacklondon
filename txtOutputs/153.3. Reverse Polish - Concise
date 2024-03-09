@@ -1,0 +1,17 @@
+ 
+ 
+Why is reverse Polish notation used?  
+ 
+●Reverse Polish notation ​ eliminates the need for brackets ​, simplifying expressions  
+●Reverse Polish notation is ​ well suited to manipulation by a stack  
+●This makes reverse Polish a popular choice when working with ​computers  
+ 
+Where is reverse Polish notation used?  
+ 
+●Reverse Polish notation is used in ​interpreters ​which are based on stacks:  
+○Bytecode  
+○PostScript  
+ 
+ 
+ 
+www.pmt.education

@@ -1,0 +1,37 @@
+4 – Complete the current FDE Cycle
+– Check the priority of the incoming
+interrupt.
+– If its of a higher priority than the current
+task.
+– Contents of registers stored in
+memory..
+– … in a stack.
+– The relevant interrupt service routine is
+loaded …
+– ..by loading the relevant value into the
+program counter.
+– When the ISR is complete the previous
+state is popped from the stack
+– And are loaded back into the registers.
+(1 per –, max 6)6
+Total 6
+Powered by TCPDF (www.tcpdf.org)Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com4 â€“ Complete the current FDE Cycle
+â€“ Check the priority of the incoming
+interrupt.
+â€“ If its of a higher priority than the current
+task.
+â€“ Contents of registers stored in
+memory..
+â€“ â€¦ in a stack.
+â€“ The relevant interrupt service routine is
+loaded â€¦
+â€“ ..by loading the relevant value into the
+program counter.
+â€“ When the ISR is complete the previous
+state is popped from the stack
+â€“ And are loaded back into the registers.
+(1 per â€“, max 6)6
+Total 6
+Powered by TCPDF (www.tcpdf.org)Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

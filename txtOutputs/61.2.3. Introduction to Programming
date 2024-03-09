@@ -1,0 +1,23 @@
+ 
+Below is an example of an LMC program which returns the remainder, called the modulus,  
+when ​num1​  is divided by ​num2​ : 
+ 
+INP 
+STA num1 
+INP 
+STA num2  
+LDA num1  
+ positive STA num1 // branches to the ‘positive’ flag,  
+SUB num2 subtracting num2 while the result 
+BRP positive  of num1 minus num2 is positive 
+LDA num1 
+OUT 
+HLT 
+     num1 DAT 
+     num2 DAT 
+ 
+ 
+ 
+ 
+ 
+www.pmt.education

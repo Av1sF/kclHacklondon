@@ -1,0 +1,20 @@
+ 
+ 
+When testing, programmers should record the purpose of the test, type of test, the  
+expected result and the actual result of the test. There are three special types of data that  
+programmers consider when testing: 
+ 
+● Normal 
+○ Data within the range of the data type considered as valid. 
+● Boundary  
+○ Data that falls at either of the ends of the valid data range. 
+● Erroneous 
+○ Data that falls outside of the valid data range 
+ 
+Another test strategy is performing a ​dry-run ​of a program, which is when programmers 
+manually work through the code. A ​trace table ​is used to note when and which variables 
+are updated. If an unexpected result is produced, the cause of this can be traced and  
+fixed. 
+ 
+ 
+www.pmt.education

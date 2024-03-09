@@ -1,0 +1,28 @@
+ 
+● Problem ​decomposition ​ is used to identify where previously-developed ​program 
+components ​ can be ​reused. 
+● Reusable components are ​more reliable ​ than newly-coded components, as they 
+have ​already been tested ​.  
+● They ​save time, money and resources ​.  
+● Components ​may need to be modified to be compatible ​with existing software. 
+● This can be more costly and time-consuming than developing them from scratch. 
+ 
+ 
+A Level only 
+Caching 
+●Storing instructions or values in cache memory ​ after they have been used, as they  
+may be used again ​.  
+●Saves time​ of retrieving instructions from secondary storage again. 
+Frequently-accessed web pages ​ are cached so content can be ​ quickly loaded  
+● This​ frees up bandwidth ​ for other tasks on a network. 
+●Prefetching ​ is when ​algorithms predict which instructions are likely to soon be 
+fetched​ and are ​loaded and stored in cache ​.  
+● Thinking ahead means ​less time is spent waiting ​for instructions to be fetched. 
+● Limited by ​accuracy of algorithms used ​, as data stored in cache is not always used. 
+● Effectiveness depends on caching algorithm’s ability to manage the cache: 
+● Larger caches take a long time to search, but smaller ​cache sizes limit how much 
+data can be stored ​.  
+● Can be ​difficult to implement ​ well. 
+ 
+ 
+www.pmt.education

@@ -1,0 +1,37 @@
+Level 1 Cache   Very fast memory cell, however it also has  
+a small amount of capacity. (2-64KB)  
+Level 2 Cache   Relatively fast memory cell, with medium  
+sized capacity. (256KB-2MB)  
+Level 3 Cache   Much larger and slower memory cell.   
+ 
+ 
+Pipelining 
+A-Level only 
+●Pipelining: The process of completing the fetch, decode, and execute cycles of  
+three separate instructions ​ ​simultaneously  
+●Data is held in a ​buffer​ in close proximity to the CPU until it’s required 
+● Pipelining is aimed to reduce the amount of the CPU which is kept ​idle ​.  
+ 
+ 
+Computer Architecture  
+Von Neumann Architecture: 
+● Von Neumann includes a single ​control unit ​, ​ALU​, ​registers​ and ​memory units 
+●Shared memory ​and ​data​ ​bus​ used for both data and instructions.  
+ 
+Harvard Architecture:  
+● Physically separate memories for instructions and data  
+● More commonly used with embedded processors 
+ Advantages of Von Neumann  
+Architecture   Advantages of Harvard Architecture   
+Cheaper to develop ​ since the control unit is  
+easier to design.   Quicker​ since data and instructions can be  
+fetched in parallel.   
+Programs can be ​optimised in size ​.  Both ​memories can be different sizes ​,  
+ 
+Contemporary Processing  
+● The combination of ​Harvard and Von Neumann architecture   
+● Uses Von Neumann when working with the data and instructions in main memory 
+● Uses Harvard when working with cache. 
+● There is an ​instruction cache ​ and ​data cache.  
+ 
+www.pmt.education

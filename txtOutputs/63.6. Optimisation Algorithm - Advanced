@@ -1,0 +1,36 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Now, we look at ​column C ​ in the table.  
+V A B C D E F G H I J 
+I 0​A 12​A 14​B 18​C 27​D 26​D 40​E 28​E 42​G 47​I 
+ 
+The node before C is ​B​. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The ​column ​ headed ​B​ is looked at next.  
+V A B C D E F G H I J 
+I 0​A 12​A 14​B 18​C 27​D 26​D 40​E 28​E 42​G 47​I 
+ 
+ 
+Before B is​ A​.   
+ 
+The path is complete; the shortest path to  
+get from A to J is A B C D E G I J and will  
+take 47 minutes.  
+ 
+www.pmt.education

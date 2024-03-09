@@ -1,0 +1,43 @@
+Client-Server and Peer-to-Peer 
+ 
+Client-server 
+Client-server networks consist of ​terminals ​ known as clients connected to a ​server​. The 
+server is a​ powerful, central computer ​. The server holds all of the ​important information 
+and resources ​ and has ​greater processing power ​ than the terminals. Clients can request 
+to use the server.  
+ 
+Advantages of Client-server   Disadvantages of Client-server   
+●More ​secure ​as data is stored in one  
+location  
+●Central backups ​ are carried out so  
+there is no need for individual  
+backups  
+●Data and resources can be ​shared  
+between clients  ●Relatively expensive ​ to set up  
+●Functionality of terminals depends  
+on the server; if this fails,  
+performance falls  
+●Trained staff are required to  
+maintain the server   
+ 
+ 
+Peer-to-Peer 
+A network in which ​ computers are connected to each other ​ so that they can share files. 
+Each device effectively acts as both a server and client, as it can both provide and request  
+resources. Peer-to-peer networks are used in ​piracy​, since it’s almost ​impossible to trace  
+the origin of files.  
+ 
+Advantages of Peer-to-peer  Disadvantages of Peer-to-peer  
+●Cheaper to set up  
+●Allows users to share resources  
+●Easy to maintain  
+●Not dependent on a central server  
+●Specialist staff are not required  ●Impossible to trace the origin of files  
+●Backups must be performed  
+separately  
+●Poorer security  
+●May be difficult to locate resources  
+ 
+ 
+ 
+www.pmt.education

@@ -1,0 +1,48 @@
+ 
+This is how a constructor is used to create a new object called ​‘myBook​ ’ from the ​‘Book​ ’ 
+class: 
+ 
+myBook = new Book(‘Great Expectations’, ‘Charles Dickens’,’False’,  
+False’) 
+ 
+When a book is reserved, the following code would be used to call the setter function:  
+ 
+myBook.set_reserved()  
+ 
+Another property of object-oriented programming is ​inheritance ​. 
+When a class inherits from another, the ​subclass ​will ​possess 
+all of the methods and attributes ​ ​of the​ superclass ​ and​ can also 
+have its own additional properties ​.  This feature of OOP allows 
+programmers to ​effectively reuse certain components and 
+properties while making some changes ​. 
+ 
+Inheritance would be expressed as: 
+ 
+class Biography inherits Book  
+ 
+Polymorphism ​is a property of OOP that means ​objects can 
+behave differently depending on their class ​. There are two 
+categories of polymorphism: overriding and overloading. 
+Overriding ​is​ redefining a method ​ within a subclass and altering the code so that it 
+functions differently ​and ​produces a different output ​. 
+Overloading ​is ​passing in different parameters into a method ​.  
+ 
+Advantages 
+- OOP allows for a ​high level of reusability ​, which makes it useful for projects where 
+there are multiple, similar components. 
+- Classes can also be ​used across multiple projects ​. 
+-Encapsulation ​ makes the ​code more reliable ​by ​protecting attribute ​s from being 
+directly accessed.  
+- OOP requires ​advance planning ​ and a ​thorough design ​ can produce a 
+higher-quality piece of software with ​fewer vulnerabilities ​.  
+- The ​modular structure ​ used in OOP ​makes it easy to maintain and update ​. 
+- Once classes have been created and tested, they can be reused as a ​ black box 
+which ​saves time and effort​. 
+ 
+Disadvantages 
+- This is a different style of programming and so ​ requires an alternative style of 
+thinking ​.  
+- OOP is​ not suited to all types of problems ​ and can sometimes produce a ​ longer, 
+more inefficient program ​. 
+- Generally ​unsuitable for smaller problems ​. 
+www.pmt.education

@@ -1,0 +1,28 @@
+18 Global variable is visible throughout a
+program / may be accessed from more
+than one part of the program (1), local
+variable is visible only in module /
+construct where it is created / declared
+(1).2 Up to 2 marks for a valid description. 
+Total 2
+19 A function is a named section of
+program (1) that performs a specific
+task (1).
+It returns a value (1), it is often called
+inline (1).2 Up to 2 marks for a valid description. 
+Total 2
+20 1 mark per bullet, max 2 for each tools
+Breakpoints
+Use to test the program works up to/at
+specific points
+Check variable contents at specific
+points
+Can set a point where the program
+stops running
+Stepping
+Can set the program to run line by line
+Slow down/watch execution
+Find the point where an error occurs4
+Total 4
+Powered by TCPDF (www.tcpdf.org)© OCR 2019. 42 of 42Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

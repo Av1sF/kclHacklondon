@@ -1,0 +1,39 @@
+Order: 5, 7, 9, 10, 11, 12, 15, 20, 25, 34 
+Post-order Traversal 
+Post order traversal follows the order: left subtree, right subtree, root node.   
+Using the outline method, nodes are traversed in the order in which you pass them on the  
+right. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Order: 7, 5, 10, 12, 11, 9, 34, 25, 20, 15  
+ 
+ 
+Hash Tables 
+A hash table is an array which is coupled with a ​hash 
+function.​ The hash function takes in data ( ​a key​) and 
+releases an output ( ​the hash​). The role of the hash function 
+is to ​map the key to an index ​ in the hash table.  
+ 
+Each piece of data is mapped to a unique value using the 
+hash function. However, it is sometimes possible for two 
+inputs to result in the same hashed value. This is known as a 
+collision ​. A ​good hashing algorithm ​ should have a ​low 
+probability of collisions ​ occurring but in the event that it does occur, the item is typically  
+placed in the next available location. This is called collision resolution.  
+ 
+Hash tables are normally used for ​indexing ​, as they provide fast access to data due to 
+keys having a unique, one-to-one relationship with the address at which they are stored..   
+ 
+www.pmt.education

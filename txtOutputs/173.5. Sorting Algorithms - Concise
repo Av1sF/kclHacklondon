@@ -1,0 +1,16 @@
+Merge Sort  
+ 
+●An example of a ​ “divide and conquer” ​ sorting algorithm  
+●Divides an array ​into smaller arrays ​until each array contains ​just one element  
+●When an array has just one element, it can be considered an ​ordered array  
+●Arrays are then​ merged back together ​in order to form an ordered array  
+●Has a time complexity of ​O(nlogn)  
+●An ​efficient ​sorting algorithm  
+ 
+ 
+ 
+ 
+In the example above, the array is ​split down the middle ​ and then​ continues to be split  
+until each resulting array is just one element in size. The arrays are then ​ merged back  
+together ​in the correct order.  
+www.pmt.education

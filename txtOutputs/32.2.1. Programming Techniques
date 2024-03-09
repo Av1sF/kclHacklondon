@@ -1,0 +1,43 @@
+Use of an IDE 
+ 
+An​ Integrated Development Environment ​, or IDE, is a ​program ​which provides a s ​et 
+of tools​ to make it easier for programmers to ​write, develop and debug code ​. 
+Common features of IDEs include: 
+ 
+- Stepping 
+This allows you to ​monitor the effect of each individual line of code ​ by  
+executing a single line at a time. 
+ 
+- Variable watch 
+This allows users to observe how the ​contents of a variable change ​ in 
+real-time. 
+ 
+- Breakpoint 
+IDEs allow users to ​set a point in the program at which the program will 
+stop​. 
+ 
+- Source code editor 
+The editor provides features such as ​autocompletion ​ of words,  
+indentation ​, syntax ​highlighting ​and automatic bracket completion. 
+ 
+- Debugging tools 
+Some IDEs also provide ​run-time detection of error ​s with a guide as to 
+where in the code they are likely to have occurred. 
+ 
+Use of object-oriented techniques 
+ 
+Object-oriented languages are built around the idea of classes. A ​class ​is a ​template 
+for an object ​and defines the ​state and behaviour of an object ​. State is given by 
+attributes ​while behaviour is defined by ​methods. 
+ 
+Classes can be used to create objects by a process called ​instantiation ​. An ​object ​is 
+a ​particular instance of a class ​, and a class can be used to create multiple objects 
+with the same set of attributes and methods. 
+ 
+In object-oriented programming, ​attributes are declared as private so can only be 
+altered by public methods ​. This is called ​encapsulation ​. Encapsulation is a technique 
+used throughout programming to implement the principle of ​information hiding ​. This 
+is when programs are made ​less complex ​by ​protecting data from being accidentally 
+edited ​ by other parts of the program. Top-down design implements the same  
+principle of encapsulation, as each module is designed to be self-contained.  
+www.pmt.education

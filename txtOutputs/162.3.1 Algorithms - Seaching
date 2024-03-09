@@ -1,0 +1,53 @@
+8 i 1 mark per bullet to max 5
+function searchForData(currentNode:byVal,
+searchValue:byVal)
+thisNode = getData(currentNode)
+if thisNode == searchValue then
+return true
+elseif thisNode < searchValue then
+if currentNode.left () != null then
+return (searchForData(currentNode.left
+(), searchValue))
+else
+return false
+endif
+else
+if currentNode.right() != null then
+return (searchForData(currentNode.right
+(), searchValue))
+else
+return false
+endif
+endif
+endfunction5
+AO2.2
+(2)
+AO3.2
+(3)The line elseif thisNode <
+searchValue then  should have read 
+elseif thisNode > searchValue
+then
+If candidates attempt to correct the code
+and their answers are consistent with, and
+work with their amendment, such answers
+should be credited.
+Examiner’s Comments
+Some candidates found the first two marks
+more difficult to access than the last three,
+because they did not fully understand that
+the parameters to the function were to be
+used.
+ii It’s a binary tree
+It’s ordered / sorted2
+AO2.2
+(2)Examiner’s Comments
+Many candidates recognised that a binary
+search tree was required, but some lost
+marks when they specified that 2 children
+were always required for each parent
+node, when it is a maximum of two children
+that are allowed, so that there can be 0, 1
+or 2 children.
+Total 7
+Powered by TCPDF (www.tcpdf.org)© OCR 2019. 20 of 20Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

@@ -1,0 +1,34 @@
+Adders 
+● A logic circuit which adds together the ​ number of inputs which are True  
+● Outputs this number in binary 
+ 
+Half Adder 
+● Two inputs, A and B 
+● Two outputs, Sum and Carry 
+● Formed from two logic gates: AND and XOR 
+● When both A and B are False, both outputs are False 
+● When one of A or B is True, Sum (S) is True  
+● When both inputs are True, Carry (C) is True 
+ A B C S  
+0 0 0 0 
+0 1 0 1 
+1 0 0 1 
+1 1 1 0 
+ 
+Full Adder 
+● Similar to a ​half adder ​, but has an ​additional input  
+● Allows ​carry in ​to be represented 
+● Formed from two XOR gates, two AND gates and an OR gate 
+● Can be ​chained together ​to form a ​ripple adder ​with many inputs 
+ 
+A B C ​in C ​out Sum   
+0 0 0 0 0 
+0 0 1 0 1 
+0 1 0 0 1 
+0 1 1 1 0 
+1 0 0 0 1 
+1 0 1 1 0 
+1 1 0 1 0 
+1 1 1 1 1 
+ 
+www.pmt.education

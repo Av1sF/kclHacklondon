@@ -1,0 +1,44 @@
+  Mark Scheme
+7 a 1 mark per bullet to max 3
+e.g.
+A queue is First In First Out (FIFO) [1]
+The questions are retrieved in the
+order they are stored [1]
+Questions can be added to the end [1]
+Dynamic structure… [1]
+…expands to take more questions [1]3
+AO1.2
+(2)
+ AO2.1
+ (1)
+Examiner's Comment:
+Many candidates understood that a queue
+was a FIFO structure, but fewer could then
+go on to explain in context why this would
+then be a suitable data structure for the
+problem in context.
+b 1 mark for pseudocode/code that meets
+each bullet
+Checking if queue is empty [1]
+…outputting message/reporting
+error [1]
+Outputting element in questions at
+index head [1]
+Increment head [1]
+e.g.
+4
+AO3.2
+ (4)
+Examiner's Comment:
+Again, the use of pseudocode posed
+problems for many candidates. Those who
+had a wider programming experience were
+apparent from the well-crafted solutions.
+Those who gained credit generally gained
+two marks for understanding how the
+pointers were updated and how data was
+added/removed. Fewer scored full marks
+by also performing error checking.
+Total 7
+Powered by TCPDF (www.tcpdf.org)© OCR 2019. 28 of 28Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

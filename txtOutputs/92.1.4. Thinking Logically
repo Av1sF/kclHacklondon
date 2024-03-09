@@ -1,0 +1,34 @@
+Conditions that affect the outcome of a decision 
+ 
+When making a decision, there are certain factors which ultimately determine the outcome  
+you choose. There are several key factors that you should take into account:  
+- What is most effective? 
+- What is most convenient? 
+- Is this option reasonable? 
+ 
+To make an appropriate decision, you need to ​evaluate these conditions ​ and order them 
+from most important to least important. By prioritising either effectiveness, convenience or  
+feasibility, it should become clearer how best to achieve your solution.   
+ 
+ 
+Decisions affecting the flow of a program 
+ 
+Decisions are made to determine how different parts 
+of the program are completed. Say we are tasked 
+with designing a simple runner game. We could 
+design the game to be endless, or make the game 
+level-based. 
+ 
+Again, we would evaluate these conditions using the 
+methods described above. It is important to 
+understand that both decisions produce completely 
+different results, and therefore produce different 
+routes through the program.  
+ 
+Thinking logically also involves identifying where decisions need to be made by the user  
+within the program, and planning out the outcomes of the decision made. The program will  
+follow a different route depending on the decision made by the user.  
+ 
+ 
+ 
+www.pmt.education

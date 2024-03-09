@@ -1,0 +1,41 @@
+Wireless Access Points (WAPs)  
+● Allow devices to ​connect to a network wirelessly  
+● More commonly used to connect devices to a router which can allow internet 
+access 
+● Used in ​mesh networks 
+ 
+Routers  
+● Used to ​connect​ two or more ​networks together 
+● One network will often belong to the ISP’s network (internet service providers’ 
+network) allowing the network to connect to the internet 
+ 
+Gateways 
+● Used when ​protocols aren’t the same ​ between networks 
+●Translate​ protocols so that both networks have the same protocols 
+● Remove the header from packets before the remaining data is added with the new 
+protocol of the new network in mind 
+ 
+ 
+Client-Server and Peer-to-Peer 
+ 
+Client-Server 
+● Client-Server networks have ​terminals ​ known as clients connected to a ​server  
+● The server is just a​ powerful central computer  
+● The server holds all of the ​important information ​ and has ​extra processing power  
+and the clients can request to use it 
+ Advantages of Client-Server   Disadvantages of Client-Server   
+●More ​secure  
+●Central backups ​eliminate the need  
+for client backups  
+●Sharing data and resources  
+between clients  ●Expensive ​ to set up  
+●Staff with training are required to  
+maintain the server   
+ 
+ 
+Peer-to-Peer networks 
+● Computers are ​ connected to each other ​ so that they can share files 
+●Inexpensive ​to set up 
+● Allow users to ​share resources 
+●Easy to maintain  
+www.pmt.education

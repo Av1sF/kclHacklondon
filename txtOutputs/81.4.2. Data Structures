@@ -1,0 +1,41 @@
+1 ‘Example’  2 
+2 ‘List’ - 
+ 
+2. When traversed, this linked list will now print ‘Example’, ‘List’. 
+ 
+Stacks 
+Stack Operations   Example   Description   
+isEmpty()  Stack.isEmpty()  
+>> True  Checks if the stack is  
+empty. Works by checking  
+the value of the top pointer.  
+push(value)  Stack.append(“Nadia”)  
+>> 
+Stack.append(“Elijah”)  
+>> Adds a new value to the end  
+of the list. Needs to check  
+that the stack is not full  
+before pushing to the stack.  
+peek()  Stack.peek()  
+>> “Elijah”  Returns the top value from  
+the stack. First checks the  
+stack is not empty by  
+looking at value of top  
+pointer.  
+pop()  Stack.pop()  
+>> “Elijah”  Removes and returns the  
+top value of the stack. First  
+checks the stack is not  
+empty by looking at value of  
+top pointer.  
+size()  Stack.size()  
+>> 2 Returns the size of the stack   
+isFull()  Stack.isFull()  
+>> False  Checks if the stack if full  
+and returns a Boolean  
+value. Works by comparing  
+stack size to the top pointer.  
+ 
+ 
+ 
+www.pmt.education

@@ -1,0 +1,30 @@
+Thinking Concurrently  
+ 
+Concurrent Thinking  
+● Concurrent thinking is the process of completing ​more than one task ​ at a given 
+time. 
+● Does not always mean you have to be working on multiple tasks at once. 
+● Involves giving ‘slices’ of your time to different tasks. 
+● Parts of a problem which are related can often be solved concurrently. 
+ 
+Concurrent Processing 
+●Concurrent processing ​and ​parallel processing ​ are not the same thing 
+● Parallel processing is when ​multiple processors ​ are used to complete more than 
+one task simultaneously 
+● In concurrent processing, each task is given ​ a slice​ of processor time to make it 
+appear as if tasks are being completed ​simultaneously ​.  
+● In reality, tasks are executed sequentially. 
+ 
+Benefits of concurrent processing  
+● The ​number of tasks completed in a given time ​ is increased. 
+●Less time is wasted waiting ​ for an input or user interaction, as other tasks can be 
+completed in this time. 
+ 
+Drawbacks of concurrent processing 
+● Concurrent processing can take longer to complete when large numbers of users or 
+tasks are involved as processes cannot be completed at once. 
+● There is an​ overhead in coordinating ​ and switching between processes, which 
+reduces program throughput. 
+● Just as with parallel processing, not all tasks are suited to being broken up and 
+performed concurrently. 
+www.pmt.education

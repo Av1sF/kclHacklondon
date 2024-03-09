@@ -1,0 +1,33 @@
+4 9 1 6 7 
+4 1 9 6 7 
+1 4 9 6 7 
+ 
+The next element to be sorted is also smaller than the element to its left, so is moved left.  
+ 
+1 4 9 6 7 
+1 4 6 9 7 
+ 
+The same occurs with the next element, which is also moved left into the correct place.  
+ 
+1 4 6 9 7 
+1 4 6 7 9 
+ 
+Finally, the last element is checked, and is already in the right place.  
+ 
+1 4 6 7 9 
+ 
+1 4 6 7 9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+www.pmt.education

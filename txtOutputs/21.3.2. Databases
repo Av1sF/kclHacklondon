@@ -1,0 +1,17 @@
+There are some problems with this, the biggest of which is ​deadlock ​. The easiest way to 
+explain this is through an example: 
+- User 1 accesses Customer 1’s record and as a result locks Customer 1’s record. 
+Simultaneously User 2 accesses Customer 2’s record and as a result locks  
+Customer 2’s record. 
+- Now User 1 tries to access Customer 2’s record, and User 2 tries to access 
+Customer 1’s record. 
+- User 1 waits for Customer 2’s record to be free and User 2 waits for Customer 1’s 
+record to be free and as they are both waiting, there is no progress causing a  
+deadlock.  
+ 
+Redundancy  
+Some information is very important and people and companies cannot afford to lose this  
+information. This is where redundancy comes in. Redundancy is the process of having one  
+or more copies of the data in ​physically different locations ​. This means that if there is any 
+damage to one copy the others will remain unaffected and can be recovered.  
+www.pmt.education

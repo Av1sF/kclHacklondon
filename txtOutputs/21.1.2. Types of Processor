@@ -1,0 +1,19 @@
+Multi-core and Parallel Systems 
+ 
+Multi-core CPUs have ​multiple independent cores ​ that can complete instructions 
+separately which results in higher performance. Parallel systems accomplish a similar task  
+however instead of requiring multiple cores they can complete tasks with a single core, by   
+ 
+using ​threading ​. Generally, multi-core systems perform better in larger projects than  
+parallel systems. 
+ 
+A-Level only 
+Graphics Processing Unit (GPU) 
+ 
+A graphics processing unit (GPU) is a device which unlike CPUs has ​lots of independent 
+processors ​ which work in parallel making it very efficient at completing ​repetitive tasks 
+such as image processing and machine learning. GPUs are a type of ​co-processor ​ (a 
+secondary processor designed to supplement the activities of the primary processor).  
+ 
+ 
+www.pmt.education

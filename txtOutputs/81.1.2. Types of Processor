@@ -1,0 +1,32 @@
+RISC and CISC processors 
+ 
+Reduced Instruction Set Computers (RISC)  
+● Small instruction set 
+● Each instruction is one line of machine code 
+● Used in common computers 
+● Pipelining is possible since each instruction takes one clock cycle 
+ 
+Complex Instruction Set Computers (CISC) 
+● Large instruction set 
+● Instructions are built into the hardware 
+● Used in microcontrollers and embedded systems 
+● The compiler has less work to do  
+● Less RAM is required to store the code 
+● Many specialised instructions are made, even though only a few of them are used 
+ 
+Graphics Processing Unit (GPU) 
+A-Level only 
+● A co-processor made up of lots of independent processors  
+● Efficient at tasks such as image processing and machine learning  
+ 
+ 
+Multi-core and Parallel Systems 
+ 
+● Multi-core CPUs have multiple independent cores that complete separate 
+fetch-execute cycles 
+● Parallel systems complete multiple instructions simultaneously using techniques like 
+pipelining, it can be completed using a single core and threading  
+ 
+ 
+ 
+www.pmt.education

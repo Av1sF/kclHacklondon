@@ -1,0 +1,15 @@
+ 
+Lossy vs Lossless Compression 
+ 
+There are two categories of compression: ​lossy ​and ​lossless ​. As the name suggests, lossy 
+compression ​ reduces the size of a file ​while also ​ removing some of its information ​. This 
+could result in a ​more pixelated ​ image or​ less clear​ audio recording. On the other hand, 
+lossless compression ​reduces the size ​of a file ​without losing any information ​. 
+ 
+When using ​ lossless compression ​, the original file ​can be recovered ​from the compressed 
+version. Something which is ​ not possible ​ when using lossy compression which reduces 
+the size of the file by ​completely disregarding ​ some information. For example, audio files 
+can be compressed lossily by removing the very high or very low frequencies which are  
+least noticeable to the ear. There’s no way to go from the lossy version of the recording  
+back to the full version as there’s no record of what the high and low frequencies were.  
+www.pmt.education

@@ -1,0 +1,41 @@
+3 a Inputs the PIN
+compares it with the passcode stored
+in memory using SUB
+the correct PIN results in a jump to 
+deactivate
+incorrect PIN resulting in a jump to 
+alarm4 Example code:
+INP
+SUB passcode
+BRZ deactivate
+BRA alarm
+Examiner's Comments
+The specification clearly outlines the LMC
+mnemonics which are acceptable in
+learners' responses. Some candidates
+used LMC mnemonics correctly, gaining
+some credit. Other candidates answered
+using procedural pseudocode gaining no
+credit. Centres are advised to ensure
+candidates have the range of LMC
+mnemonics at their disposal prior to sitting
+the examination. 
+b The program flow jumps to a
+(designated) label / another point in the
+program
+If the value in the accumulator is
+positive.2 Do not to accept ‘…branch…’ for BP 1
+Examiner's Comments
+Many candidates failed to gain credit on
+this question due to the lack of attention to
+detail in their response, which is essential
+at this level of study. Some candidates
+responded with answers such as: ‘the code
+branches if the result is positive’. Many
+candidates did not demonstrate
+understanding that it is the value in the
+accumulator which is being tested for
+whether it is positive or not. 
+Total 6
+Powered by TCPDF (www.tcpdf.org)Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

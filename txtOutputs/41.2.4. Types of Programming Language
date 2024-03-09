@@ -1,0 +1,26 @@
+ 
+-Encapsulation ​is a key reason for choosing OOP as it makes the ​code more reliable 
+by ​protecting attribute ​s from being directly accessed. Code for different classes can 
+also be ​produced independently ​ of others. 
+- OOP requires ​advance planning ​ to determine how the problem will be broken down 
+into classes and how these will link to each other. A ​thorough design ​ can produce a 
+higher-quality piece of software with ​fewer vulnerabilities ​.  
+- The ​modular structure ​ used in OOP ​makes it easy to maintain and update ​. 
+- There is a high level of ​abstraction ​and it is not necessary for programmers to know 
+details about how code is implemented. Once classes have been created and  
+tested, they can be reused as a ​ black box​ which ​saves time and effort​. 
+ 
+Disadvantages 
+- This is a different style of programming and so ​ requires an alternative style of 
+thinking ​. This can be difficult for programmers accustomed to other paradigms to  
+pick up. 
+- OOP is​ not suited to all types of problems ​. Where few components are reused, 
+OOP may in fact result in a​ longer, more inefficient program ​. 
+- Generally ​unsuitable for smaller problems ​. 
+ 
+ 
+ 
+ 
+ 
+ 
+www.pmt.education

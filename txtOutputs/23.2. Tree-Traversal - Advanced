@@ -1,0 +1,15 @@
+ 
+The postfix expression 9 1 + 2 / 7 5 * + is calculated as thus:  
+●When both of the ​operands​ are ​immediately preceding​ the​ opcode​,  
+the operation is performed. In the above example, this occurs twice,  
+once at 9 1 + and at 7 5 *.   
+●9 1 + is the same as 9 + 1 which equals 10  
+●7 5 * is the same as 7 * 5 which equals 35  
+●Now the expression reads 10 2 / 35 +  
+●10 and 2 are immediately before the operator /, so the equation 10 2 /  
+is performed. It’s​ infix​ equivalent is 10 / 2 which equals 5  
+●The expression reads 5 35 + ; there are two pieces of operand before  
+the opcode so the equation 5 + 35 is solved which equals 40  
+●The answer is 40  
+ 
+www.pmt.education

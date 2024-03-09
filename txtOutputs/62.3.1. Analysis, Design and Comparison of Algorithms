@@ -1,0 +1,17 @@
+Comparison of Algorithms
+The exam board will mostly compare the time complexity. Occasionally they will mention
+space complexity although it’s important to just understand the smaller the space
+complexity the better the algorithm is.
+Linear Search Algorithm
+A linear search algorithm is an algorithm which traverses through every item one at a time
+until it finds the item its searching for. The Big-O notation for a linear search algorithm is
+O(n).
+Binary Search Algorithm
+A binary search algorithm is a divide and conquer algorithm, this means it splits the list into
+smaller lists until it finds the item it’s searching for, since the size of the list is halved every
+time it’s a Big-O notation of O(log(n)) .
+Bubble Sort Algorithm
+The bubble sort algorithm passes through the list evaluating pairs of items and ensuring
+the larger value is above the smaller value. It has a polynomial Big-O notation, O(n2).
+https://bit.ly/pmt-cchttps://bit.ly/pmt-cc
+https://bit.ly/pmt-edu

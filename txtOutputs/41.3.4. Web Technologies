@@ -1,0 +1,24 @@
+It is important to remember that in reality, modern search engines use a much more  
+complex algorithm to determine the order in which websites are displayed. These take into  
+account various other factors, such as the age of a web page and how quickly content on  
+the web page loads. 
+ 
+Server and Client Side Processing 
+ 
+Server side Processing 
+Server side processing is when a ​client sends data to a server ​ for it to be processed. This 
+means no information is processed on the client computer. Common server side scripting  
+languages are ​SQL​ or ​PHP​. Server side processing is useful for several reasons:  
+● Does not require ​plugins   
+● Can perform ​large calculations ​ much faster than clients 
+● Not browser dependent, 
+● More ​secure 
+ 
+Client side Processing  
+Client side processing is when a client processes the data on a ​local device ​. This means 
+that all of the information is processed on the client computer. This is also called client side  
+scripting, and uses languages such as ​JavaScript​. This is useful for the following reasons: 
+● Webpage can immediately respond to user actions 
+● Executes quickly 
+● Gives developers more control over the behaviour and look of the website 
+www.pmt.education

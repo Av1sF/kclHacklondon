@@ -1,0 +1,28 @@
+ 
+Compiler 
+Translate high-level code into machine code ​all at once ​. The ​initial compilation process is 
+longer ​ than using an interpreter or an assembler.  
+Compiled code is ​specific to a particular processor type 
+and operating system ​ but can be run ​without a translator  
+present. 
+ 
+Interpreter 
+Translate and execute code line-by-line ​. They stop and 
+produce an error if a line contains an error.  
+Initially appear faster ​ than compilers, but are ​slower than 
+running compiled code ​ as ​code must be interpreted each time it is executed. ​Code ​ also 
+requires the correct interpreter in order to run ​ on different devices. 
+Interpreters are useful for ​testing ​code, as time is not wasted compiling code with errors. 
+Code is also ​ platform-independent ​, making interpreted code ​ more portable ​.  
+ 
+Assembler  
+Assembly Code 
+A low-level language and is the ​‘next level up’ from 
+machine code ​. Assembly code is ​platform specific ​. 
+ 
+Assemblers translate assembly code into machine code. 
+Each line of assembly code is equivalent to almost one 
+line of machine code ​. 
+ 
+ 
+www.pmt.education

@@ -1,0 +1,39 @@
+ 
+There are two factors which determine the page rank of a page:  
+- How many ​incoming links ​ it has from other web pages 
+- The ​page rank ​ of the web pages that ​link to it 
+ 
+The data structure used to display this information is a 
+directed graph. This shows which pages link to other 
+websites, and webpages are represented as nodes while 
+links between two pages are represented as arcs between 
+the nodes. 
+ 
+The pagerank algorithm is as follows: 
+ 
+PageRank(x) = (1-d) + d[(PageRank(T1) ÷ Count(T1)) + … + (PageRank(Tn) ÷ Count(Tn)]  
+ 
+where ​PageRank(x)​ is the page rank of page ​x ​, ​Count(Tn) ​ is the total count of outbound 
+links from a webpage ​n ​and ​d ​is the damping factor. This is usually set to 0.85. 
+ 
+ 
+Server and Client Side Processing 
+ 
+Server side Processing 
+Server side processing is when a ​client sends data to a server ​ for it to be processed. This 
+means no information is processed on the client computer. Common server side scripting  
+languages are ​SQL​ or ​PHP​. Server side processing is useful for several reasons:  
+● Does not require ​plugins   
+● Can perform ​large calculations ​ much faster than clients 
+● Not browser dependent, 
+● More ​secure 
+ 
+Client side Processing  
+Client side processing is when a client processes the data on a ​local device ​. This means 
+that all of the information is processed on the client computer. This is also called client side  
+scripting, and uses languages such as ​JavaScript​. This is useful for the following reasons: 
+● Webpage can immediately respond to user actions 
+● Executes quickly 
+● Gives developers more control over the behaviour and look of the website 
+ 
+www.pmt.education

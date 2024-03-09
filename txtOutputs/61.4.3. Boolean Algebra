@@ -1,0 +1,23 @@
+Full Adder 
+A full adder is ​ similar to a half adder ​, but has an ​additional input ​, allowing for ​carry in ​to be 
+represented. The full adder logic circuit is formed from two XOR gates, two AND gates and  
+an OR gate as shown in the diagram. 
+ 
+ 
+The truth table for a full adder is shown below. There are eight rows as opposed to the four  
+rows of the half adder due to the additional third input, C ​in​. 
+ 
+A B C ​in C ​out Sum  
+0 0 0 0 0 
+0 0 1 0 1 
+0 1 0 0 1 
+0 1 1 1 0 
+1 0 0 0 1 
+1 0 1 1 0 
+1 1 0 1 0 
+1 1 1 1 1 
+ 
+Because the full adder has a carry input, the circuits can be ​chained together ​to form an 
+adder with as many inputs as is required. 
+ 
+www.pmt.education

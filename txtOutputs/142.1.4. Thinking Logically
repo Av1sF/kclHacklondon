@@ -1,0 +1,42 @@
+Decision making in problem solving  
+ 
+● A ​decision ​is a​ result reached after some consideration ​.  
+● When solving problems and designing programs, many decisions have to be made. 
+● Examples include choosing the programming ​paradigm ​used and deciding how 
+different information is collected from the user 
+● To simplify the decision making process, we ​limit the solutions ​ we can pick from.  
+● When deciding on a programming language, you should consider what is suited to 
+the task and your understanding of the language. 
+● Identifying where decisions need to be made early allows us to gather enough 
+information about our options.  
+● In​ flow charts​, a decision is shown by a diamond shaped icon. It can have two 
+results, yes or no (​true/false​). 
+ 
+ 
+Conditions that affect the outcome of a decision 
+ 
+● When making a decision, there are certain factors which determine the outcome 
+you choose.  
+○ What is most effective? 
+○ What is most convenient? 
+○ Is this option reasonable? 
+● To make an appropriate decision, you need to ​evaluate these conditions ​. 
+● It is also helpful to order them from most important to least important.  
+● This makes it clearer how best to achieve your solution.  
+ 
+ 
+Decisions affecting the flow of a program 
+ 
+● Decisions are made to determine how different 
+parts of the program are completed.  
+● Say we are tasked with designing a simple 
+runner game. We could design the game to be 
+endless, or level-based. 
+● These decisions produce different routes 
+through the program.  
+● It is also important to identify where decisions 
+need to be made within the program, and plan 
+out the outcomes of the decision made.  
+● Again, the program follows a different route 
+depending on the decision made by the user. 
+www.pmt.education

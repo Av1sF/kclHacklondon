@@ -1,0 +1,30 @@
+3 i One item at a time / serially …
+…moved into correct position…
+…until all items in list checked3
+Do not allow swap(ped) or pivots
+Allow two lists.
+One item at a time taken from 1st list…
+…and inserted into 2nd list…
+…in the correct place.
+Examiner's Comments
+There were quite a few very muddled
+answers to this question, those that were
+not muddled, were just plain wrong. A large
+proportion of candidates either were
+swapping for a bubble sort or using pivots;
+neither of which were what was required.
+ii
+1 mark per correct row after row 1 in
+sequence to max 44 Method must be demonstrated somehow -
+circles, underlining, description e.g. “insert
+12” etc
+Must be an insertion sort
+Do not allow swap(ped) or pivots
+Examiner's Comments
+Those who knew what an insertion sort
+was got this correct, a fair percentage used
+quick sorts or bubble sorts and as such did
+not receive any marks.
+Total 7
+Powered by TCPDF (www.tcpdf.org)© OCR 2019. 8 of 8Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

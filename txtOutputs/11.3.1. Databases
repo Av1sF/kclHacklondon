@@ -1,0 +1,20 @@
+special magnetic ink which can be recognised by a computer but the amount must be  
+entered manually. ​Optical Mark Recognition (OMR) ​ is used for multiple choice questions 
+on a test. Other forms use​ Optical Character Recognition (OCR) ​. 
+ 
+Selecting and Managing Data   
+Selecting the correct data is an important part of ​data preprocessing ​. This could involve 
+only selecting data that fits a certain criteria to reduce the volume of input. For example, a  
+camera catching speeding cars will only select cars going above a certain speed. Then,  
+background information will be removed so only the number plate is added to a record.  
+Collected data can alternatively be managed using SQL to sort, restructure and select  
+certain sections.  
+ 
+Exchanging Data 
+Exchanging data is the process of ​transferring the collected data ​. One common way of 
+exchanging data is ​EDI (Electronic Data Interchange) ​. This ​doesn’t require human 
+interaction ​ and enables data transfer from one computer to another.  
+ 
+ 
+https://bit.ly/pmt-cchttps://bit.ly/pmt-cc
+https://bit.ly/pmt-edu

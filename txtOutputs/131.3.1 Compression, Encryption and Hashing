@@ -1,0 +1,21 @@
+b
+ One byte correct (1) all three bytes
+correct. (1)2 Allow FT if (a) is incorrect but bottom row
+must match XOR with top row and key. 
+c Symmetric (1) …. as the same key is used
+to decrypt it as encrypt it (1) 2 Allow FT for asymmetric if (b) indicates
+asymmetric encryption used 
+d Any four from:
+Symmetric encryption would require both
+parties to have copy of the key (1) this
+couldn’t be transmitted over the internet or
+an eavesdropper monitoring the message
+may see it (1) Asymmetric gets round this
+requirement as there are two different keys
+(1) One key encrypts the data (1) which
+can be publically distributed (1) and a
+different key to decrypt it (1) which is kept
+private (1)4
+Total 10
+Powered by TCPDF (www.tcpdf.org)Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

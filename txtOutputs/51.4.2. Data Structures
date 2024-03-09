@@ -1,0 +1,16 @@
+Hash Tables 
+A hash table is an array which is coupled with a ​hash function. ​ The hash function takes in 
+data (​a key​) to produce a unique output ( ​the hash​). It exists to ​map the key to a unique 
+index ​ in the hash table.  
+ 
+Sometimes, two keys might produce the same hashed value. 
+This is called a ​collision ​, in which case the item is typically 
+placed in the next available location. A ​good hashing 
+algorithm ​ should have a ​low rate of collisions ​.  
+ 
+Hash tables are commonly used for ​indexing ​, as they provide 
+fast access to data due to keys having a unique, one-to-one 
+relationship with the address at which they are stored. 
+ 
+ 
+www.pmt.education

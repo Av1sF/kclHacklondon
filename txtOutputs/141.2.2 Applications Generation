@@ -1,0 +1,34 @@
+0 marks
+No attempt to answer the question
+or response is not worthy of credit.AO3.3 Evaluation
+Lexical analysis is necessary to put the
+code into a format which can be read and
+processed (i.e. parsed) by the syntax
+analyser.
+Syntax Analysis is necessary to ensure the
+code is valid in as much as it meets all the
+structural rules of the language. This
+guarantees it will run (though it might not
+do as expected and may still have
+occurrences of runtime errors).
+Code generation is necessary to turn the
+code into a format that the processor can
+understand (i.e. binary machine code).
+The code optimisation whilst not
+necessary, does ensure the code runs
+quicker or using less memory.
+Linking is necessary to ensure the library
+code is incorporated into the final program.
+Examiner’s Comments
+Candidates were assessed on the quality
+of their extended response in this question.
+Many candidates explained the stages of
+compilation very well. Some went on to
+describe how code from the library
+becomes part of the finished program
+equally well. Few justified why each stage
+was necessary. Many candidates scored
+well on this question.
+Total 11
+Powered by TCPDF (www.tcpdf.org)Question Answer/Indicative content Marks Guidance
+PhysicsAndMathsTutor.com

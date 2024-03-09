@@ -1,0 +1,32 @@
+ACID (Atomicity, Consistency, Isolation, Durability)  
+Atomicity: 
+- A transaction must be ​processed in its entirety or not at all ​,  
+Consistency: 
+- A transaction must maintain the ​referential integrity rules ​ between linked tables, 
+Isolation: 
+- Simultaneous executions of transactions should lead to the ​same result​ as if they 
+were executed one after the other, 
+Durability 
+- Once a transaction has been executed it ​will remain so ​ regardless of the 
+circumstances surrounding it, such as in the event of a power cut.  
+ 
+Record Locking  
+The process of ​preventing simultaneous access to records ​ in a database is called record 
+locking and it is used in order to ​prevent inconsistencies ​ or a ​loss of updates ​. While one 
+person is editing a record, this ‘locks’ the record so others cannot access the same record.  
+The biggest problem with this is ​deadlock ​, described below. 
+- User 1 accesses Customer 1’s record and as a result locks Customer 1’s record. 
+Simultaneously User 2 accesses Customer 2’s record and as a result locks  
+Customer 2’s record. 
+- Now User 1 tries to access Customer 2’s record, and User 2 tries to access 
+Customer 1’s record. 
+- User 1 waits for Customer 2’s record to be free and User 2 waits for Customer 1’s 
+record to be free and as they are both waiting, there is no progress causing a  
+deadlock.  
+ 
+Redundancy  
+There is some information that people and companies cannot afford to lose. Redundancy  
+is the process of having one or more copies of the data in ​physically different locations ​. 
+This means that if there is any damage to one copy the others can be recovered.  
+ 
+www.pmt.education

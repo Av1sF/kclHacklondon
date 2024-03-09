@@ -1,0 +1,27 @@
+ 
+Linear Search 
+● The​ most basic ​searching algorithm 
+● Looks at elements one at a time until the desired element is found 
+● Doesn’t require the data to be sorted 
+● A great deal of ​pot luck​, but ​easy ​to implement 
+○ Sometimes ​gets lucky ​and finds the desired element almost ​immediately  
+○ In other situations, the algorithm is ​incredibly inefficient  
+● Time complexity of ​O(n) 
+  
+ 
+A ​= Array of data 
+x ​= Desired element 
+ 
+i = 0 
+while i < A.length: 
+if A[i] == x: 
+return i 
+else: 
+i = i + 1 
+endif 
+endwhile 
+return “Not found in data” 
+ 
+ 
+- 
+www.pmt.education

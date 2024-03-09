@@ -1,0 +1,23 @@
+11Server and Client Side Processing 
+Server side Processing 
+Server side processing is when a ​client sends data to a server ​ for it to be processed. This 
+means no information is processed on the client computer. The common server side  
+scripting languages are ​SQL​ or ​PHP​. Server side processing is beneficial for a few 
+reasons:  
+● Doesn’t require ​plugins ​ etc 
+● Can perform ​large calculations ​ much faster than clients, 
+● Not browser dependent, 
+● It’s more ​secure​, 
+ 
+Client side Processing  
+Client side processing is when a client processes the data on its ​local device ​. This means 
+all of the information is processed on the client computer. This is also called client side  
+scripting, and uses languages such as ​JavaScript​. This is beneficial for a few reasons: 
+● Webpage can immediately respond to user actions, 
+● Execute quickly, 
+● Gives developers more control over the behaviour and look of the website, 
+ 
+ 
+ 
+ 
+www.pmt.education

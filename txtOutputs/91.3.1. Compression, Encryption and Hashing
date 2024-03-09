@@ -1,0 +1,33 @@
+Asymmetric Encryption 
+ 
+●Two keys ​are used: public and private 
+● The public key can be published ​anywhere 
+● The private key must be kept secret 
+● Together, the keys are known as a ​ key pair 
+● The keys​ ​are ​mathematically related ​to one another 
+● Messages encrypted with the public key can only be decrypted with the 
+corresponding private key 
+● Encrypting a message using your private key ​ verifies that the message was sent by 
+you​. If your public key can decrypt a message, then it ​must​ have been encrypted 
+with your private key, which ​only you ​have access to. 
+ 
+Hashing 
+ 
+● An input (called a key) is turned into a fixed size value (called a hash) 
+● A vast number of algorithms, called ​hash functions ​, do this 
+● The output of a hash function ​ can’t be reversed ​ to form the key 
+● the keys, which​ can’t be reversed ​to gain the passwords. 
+● A hash table is a ​data structure​ which holds ​ key-value pairs 
+● Hash tables can be used to ​ lookup data ​ in an array in ​ constant time 
+● Hash tables are used extensively in situations where a lot of data needs to be 
+stored with ​constant access times​. For example, in ​caches ​and ​databases 
+● If two keys produce the same hash, a ​collision ​is said to occur 
+● Methods to overcome collisions include ​storing items together in a list ​ under the 
+hash value and ​using a second hash function ​ to generate a new hash 
+● A​ good hash function ​ should have a ​ low chance of collision ​and should be ​ quick to 
+calculate 
+● A hash function’s output should be ​ smaller than the input ​it was provided 
+ 
+ 
+ 
+www.pmt.education

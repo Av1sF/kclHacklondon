@@ -1,0 +1,18 @@
+ 
+Loaders 
+Loaders are programs provided by the operating system. When a file is executed, the  
+l​oader retrieves the library or subroutine from the given memory location ​. 
+ 
+Use of Libraries 
+Libraries are ​pre-compiled programs ​which can be incorporated within other programs 
+using either static or dynamic linking. They are ​ready-to-use and error free ​, so ​save time 
+developing and testing modules. Another advantage of libraries is that they ​can be reused  
+within multiple programs. 
+ 
+Libraries are often used to provide a specialised range of functions which would otherwise  
+require a lot of time and effort to develop, so ​ save programmers from having to ‘reinvent 
+the wheel’ ​ and instead make use of others’ expertise. Popular libraries provide  
+mathematical and graphical functions. 
+ 
+ 
+www.pmt.education

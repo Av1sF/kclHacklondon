@@ -1,0 +1,42 @@
+ 
+The need for abstraction 
+ 
+● Abstraction allows ​non-experts to use of a range of systems or models ​ by ​hiding 
+information ​ that is ​too complex or irrelevant ​ to the system’s purpose 
+● Enables for ​efficient software design ​as programmers can focus on core elements 
+rather than unnecessary details 
+○Reduces the time spent on a project   
+○Prevents a program from getting unnecessarily large  
+● Programming languages use layers of abstraction: 
+○ Low-level languages ​directly interact with computers ​but are ​difficult to write 
+○ High-level languages abstract the machine code that is executed when a 
+program is run by providing ​easy-to-use syntax similar to natural language  
+○ Makes developing programs easier 
+○ High-level languages are ​ easier to learn ​ and use than assembly language or 
+machine code 
+○ Makes coding ​accessible to non-specialists  
+● The ​TCP/IP model​ is an abstraction for how networks function, separated into ​ four 
+layers: application, transport, internet and link  
+○ Each layer deals with a ​different part of the communication process  
+○ Each layer does not need to know how other layers function 
+ 
+The difference between abstraction and reality 
+ 
+● Abstraction is a ​simplified representation of reality  
+● Entities are represented as computational ​structures​ eg. tables and databases  
+● Real-world values can be stored as ​variables ​ and ​constants 
+●Objects in object-oriented programming ​ are an ​abstraction for real-world entities  
+○ Attributes represent the characteristics of an object 
+○ Methods represent the actions a real-world object is able to perform 
+ 
+ 
+Devise an abstract model for a variety of situations  
+ 
+When devising an abstract model given a scenario, you must consider:  
+ 
+- What is the problem that needs to be solved by the model?  
+- How will the model be used? 
+- Who will the model be used by?  
+- Which parts of the problem are relevant based on the target audience and purpose 
+of the model? 
+www.pmt.education

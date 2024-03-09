@@ -1,0 +1,88 @@
+ 
+Merits, drawbacks and uses of programming methodologies 
+ 
+ Merits  Drawbacks  Uses  
+Waterfall  -Straightforward to  
+manage  
+-Clearly   
+documented  
+ -Lack of flexibility  
+-No risk analysis  
+-Limited user  
+involvement   Static, low-risk  
+projects which need  
+little user input, such  
+as a piece of  
+general-purpose  
+software  
+ 
+Agile  -Produces high  
+quality code  
+-Flexible to  
+changing  
+requirements  
+-Regular user input  -Poor  
+documentation  
+-Requires  
+consistent  
+interaction  
+between user  
+and programmer  
+ Small to medium  
+projects with unclear  
+initial requirements.  
+Extreme  
+Programming  -Produces high  
+quality code  
+-Constant user  
+involvement means  
+high usability  -High cost of two  
+people working  
+on one project  
+-Teamwork is  
+essential  
+-End-user may  
+not be able to be  
+present  
+ Small to medium  
+projects with unclear  
+initial requirements  
+requiring excellent  
+usability.  
+Spiral  -Thorough  
+risk-analysis and  
+mitigation  
+-Caters to changing  
+user needs  
+-Produces  
+prototypes  
+throughout  
+ -Expensive to hire  
+risk assessors  
+-Lack of focus on  
+code efficiency  
+-High costs due to  
+constant  
+prototyping  Large, risk-intensive  
+projects with a high  
+budget.  
+Rapid  
+Application  
+Development  -Caters to changing  
+user requirements   
+-Highly usable  
+finished product  
+-Focus on core  
+features, reducing  
+development time  
+ -Poorer quality  
+documentation  
+-Fast pace may  
+reduce code  
+quality  
+ Small to medium,  
+low-budget projects  
+with short  
+time-frames.  
+ 
+www.pmt.education

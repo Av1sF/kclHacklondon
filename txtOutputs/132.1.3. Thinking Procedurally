@@ -1,0 +1,16 @@
+ 
+ 
+Order of steps needed to solve a problem 
+ 
+● When constructing the final solution, thinking about the ​order in which operations 
+are performed ​ is important. 
+● Programs may require certain inputs to be entered in a particular order by the user 
+before processing can occur.  
+● Inputs need to be validated, and this must occur before this data is used. 
+● In some cases, it may be possible for several subroutines to be executed 
+simultaneously depending on the data and inputs the subroutine requires.   
+● Programmers should decide on the ​order in which subroutines are executed ​, and 
+how they interact with each other ​, based on their role in solving the problem. 
+● Programs should also be built so operations cannot be carried out in an order that 
+will raise an error or does not make logical sense. 
+www.pmt.education

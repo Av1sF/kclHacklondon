@@ -1,0 +1,14 @@
+ 
+Reusable components are ​more reliable ​ than newly-coded components, as they have 
+already been tested ​ and any bugs dealt with. This ​saves time, money and resources ​. 
+Subroutines can then simply be reused with different arguments to produce a variety of  
+outputs. Producing well-tested, reusable components means that they can also be ​reused 
+in future projects ​,​ saving development costs ​. However, it may not always be possible to 
+integrate existing components developed by third parties due to ​compatibility issues ​ with 
+the rest of the software. This may mean these components need to be modified to work  
+with existing software, which can sometimes be more costly and time-consuming than  
+developing them in-house.  
+ 
+ 
+ 
+www.pmt.education
