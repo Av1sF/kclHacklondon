@@ -23,11 +23,10 @@ body {font-size:16px;}
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
+    <a href="#mock" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Mock</a> 
+    <a href="#topics" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Topics</a> 
+   
   </div>
 </nav>
 
@@ -44,16 +43,16 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
+  <div class="w3-container" style="margin-top:80px" id="revision">
     <h1 class="w3-jumbo"><b>Interior Design</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Revision.</b></h1>
     <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
   </div>
   
 
 
   <!-- Services -->
-  <div class="w3-container" id="services" style="margin-top:75px">
+  <div class="w3-container" id="about" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>About.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>We are a A-level Computer Science revision service that focus and tailor your revision to you!</p>
@@ -64,7 +63,7 @@ body {font-size:16px;}
 
 
   <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
+  <div class="w3-container" id="mock" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Mock.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
@@ -102,7 +101,7 @@ body {font-size:16px;}
 
   
   <!-- Designers -->
-  <div class="w3-container" id="designers" style="margin-top:75px">
+  <div class="w3-container" id="topics" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>OCR Topics.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Summarisation and Resource Suggestions</p>
@@ -147,7 +146,7 @@ body {font-size:16px;}
     </form>
     {% if topicResults %}
         <p id="resource">
-            {{topicResults}}
+            {{topicResults['outputs']}}
         </p>
     {% endif %}
 
