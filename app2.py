@@ -59,7 +59,7 @@ sio = SocketIO(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    initaliseMock = False
+    topicResults = False
     mockResults = False
 
 
@@ -78,18 +78,19 @@ def index():
         #     prompt = """Find resources on the internet that are primarily related to "+ topics +", give links for A-level related resources for students"""
         #     topic = getResource(prompt)
 
-    return render_template('home.html', mockResults=mockResults)
+    return render_template('home.html', mockResults=mockResults, topicResults=topicResults)
 
 @app.route('/topic', methods=['GET', 'POST'])
 def topic():
     topicResults = False
+    mockResults = False
 
     if request.method == 'POST':
         form = request.form
         topics = unitTopic.get(request.form['submit_button'])
         topicResults = getResource(topics)
 
-    return render_template('home.html', topicResults=topicResults)
+    return render_template('home.html',  mockResults=mockResults, topicResults=topicResults)
 
 """
 SocketIO event handlers 
