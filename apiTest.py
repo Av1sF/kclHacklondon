@@ -10,6 +10,6 @@ def query(payload):
  response = requests.post(API_URL, headers=headers, json=payload)
  return response.json()
 
-output = query({"in-0": """Find resources on the internet that are primarily related to the haskell and functional programming, give links for A-Level related resources for students.""", 
-                "user_id": """d6c868e4-dd77-433a-b8f6-40264a0fd870"""})
+output = query({"in-0": """Find resources on the internet that are primarily related to the haskell and functional programming, give links for A-Level related resources for students.""", "user_id": """<USER or Conversation ID>"""})
+
 print(output)

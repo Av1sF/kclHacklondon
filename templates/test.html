@@ -23,10 +23,11 @@ body {font-size:16px;}
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
-    <a href="#dwdd" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">wdwd</a> 
-    <a href="#topics" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Topics</a> 
-   
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav>
 
@@ -43,16 +44,16 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="revision">
+  <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-jumbo"><b>Interior Design</b></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>Revision.</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
     <!-- <hr style="width:50px;border:5px solid red" class="w3-round"> -->
   </div>
   
 
 
   <!-- Services -->
-  <div class="w3-container" id="about" style="margin-top:75px">
+  <div class="w3-container" id="services" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>About.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>We are a A-level Computer Science revision service that focus and tailor your revision to you!</p>
@@ -63,15 +64,16 @@ body {font-size:16px;}
 
 
   <!-- Contact -->
-  <div class="w3-container" id="dwdd" style="margin-top:75px">
+  <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Mock.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+
     
 
     <button type="submit" id="dummy" name="submit_button" value="initalise" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="showForm();">New Mock!</button>
     
-    <form  id="mock" action="{{ url_for('index') }}" method="POST" style="display: none;">
+    <form action="{{ url_for('index') }}" method="POST" id="mock" style="display: none;">
     <div class="w3-section">
         <label>Name</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
@@ -94,6 +96,56 @@ body {font-size:16px;}
             {{mockResults[2]}}
         </p>
     {% endif %}
+
+  </div>
+
+
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>OCR Topics.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Summarisation and Resource Suggestions</p>
+    <p>
+      ooga booga and click into these different topics for citation suggestions and stuff not
+      as tailor made as the mock but it is very cool wooooooo 
+    </p>
+    <p><b>Our answers are thoughtfully chosen</b>:</p>
+
+    <button type="submit" name="submit_button" value="CCP" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Characteristics of Contemporary Processors
+    </button>
+
+    <button type="submit" name="submit_button" value="SSD" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Software and Software Development
+    </button>
+
+    <button type="submit" name="submit_button" value="ED" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Exchanging Data 
+    </button>
+
+    <button type="submit" name="submit_button" value="DDA" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Data Types, Data Structures and Algorithms 
+    </button>
+
+    <button type="submit" name="submit_button" value="LMCE" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Legal, Moral, Cultural, and Ethical Issues 
+    </button>
+
+    <button type="submit" name="submit_button" value="ECT" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Elements of Computational Thinking
+    </button>
+
+    <button type="submit" name="submit_button" value="PSP" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Problem Solving and Programming
+    </button>
+
+    <button type="submit" name="submit_button" value="A" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+      Algorithms
+    </button>
+
+    
+
   </div>
 
 
@@ -117,15 +169,13 @@ function w3_close() {
   document.getElementById("myOverlay").style.display = "none";
 }
 
-function form() {
-  document.getElementById("mock").style.display = "block";
-}
+
 
 function showForm() {
     var elem = document.getElementById("dummy")
     elem.parentNode.removeChild(elem);
-    
-    // document.getElementById("suggestions").style.display = "none";
+    document.getElementById("mock").style.display = "block";
+    document.getElementById("suggestions").style.display = "none";
 }
 
 // Modal Image Gallery
