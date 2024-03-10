@@ -67,12 +67,11 @@ body {font-size:16px;}
     <h1 class="w3-xxxlarge w3-text-red"><b>Mock.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-
     
 
     <button type="submit" id="dummy" name="submit_button" value="initalise" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="showForm();">New Mock!</button>
     
-    <form action="{{ url_for('index') }}" method="POST" id="mock" style="display: none;">
+    <form  id="mock" action="{{ url_for('index') }}" method="POST" style="display: none;">
     <div class="w3-section">
         <label>Name</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
@@ -95,7 +94,6 @@ body {font-size:16px;}
             {{mockResults[2]}}
         </p>
     {% endif %}
-
   </div>
 
 

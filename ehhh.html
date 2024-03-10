@@ -1,0 +1,57 @@
+
+
+  
+  <!-- Designers -->
+  <div class="w3-container" id="topics" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>OCR Topics.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Summarisation and Resource Suggestions</p>
+    <p>
+      ooga booga and click into these different topics for citation suggestions and stuff not
+      as tailor made as the mock but it is very cool wooooooo 
+    </p>
+    <p><b>Our answers are thoughtfully chosen</b>:</p>
+
+    <form action="{{ url_for('topic') }}" method="POST" id="topic">
+      <button type="submit" name="submit_button" value="CCP" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Characteristics of Contemporary Processors
+      </button>
+
+      <button type="submit" name="submit_button" value="SSD" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Software and Software Development
+      </button>
+
+      <button type="submit" name="submit_button" value="ED" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Exchanging Data 
+      </button>
+
+      <button type="submit" name="submit_button" value="DDA" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Data Types, Data Structures and Algorithms 
+      </button>
+
+      <button type="submit" name="submit_button" value="LMCE" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Legal, Moral, Cultural, and Ethical Issues 
+      </button>
+
+      <button type="submit" name="submit_button" value="ECT" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Elements of Computational Thinking
+      </button>
+
+      <button type="submit" name="submit_button" value="PSP" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Problem Solving and Programming
+      </button>
+
+      <button type="submit" name="submit_button" value="A" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
+        Algorithms
+      </button>
+    </form>
+    {% if topicResults %}
+        <p id="resource">
+            {{topicResults['outputs']}}
+        </p>
+    {% endif %}
+
+
+    
+
+  </div>
