@@ -112,7 +112,7 @@ body {font-size:16px;}
     </p>
     <p><b>Our answers are thoughtfully chosen</b>:</p>
 
-    <form action="{{ url_for('topic') }}" method="POST" id="topic" style="display: block;"></form>
+    <form action="{{ url_for('topic') }}" method="POST" id="topic" style="display: block;">
         <button type="submit" name="submit_button" value="CCP" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
         Characteristics of Contemporary Processors
         </button>
@@ -145,6 +145,12 @@ body {font-size:16px;}
         Algorithms
         </button>
     </form>
+
+    {% if topic %}
+        <p id="tp">
+            {{topic}}
+        </p>
+    {% endif %}
 
     
 
