@@ -17,5 +17,3 @@ Contemporary Processing
 Contemporary processors use a ​combination of Harvard and Von Neumann ​ architecture. 
 Von Neumann is used when working with data and instructions in main memory, but uses  
 Harvard architecture to divide the cache into instruction cache and data cache.  
- 
-www.pmt.education

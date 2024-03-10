@@ -29,4 +29,3 @@ A good hash function should have a ​low chance of collision ​and should be �
 calculate ​. Furthermore, a hash function should provide an output which is ​smaller than the 
 input​ it was provided, otherwise searching for the hash ​could take longer ​than simply 
 searching for the key. 
-www.pmt.education
