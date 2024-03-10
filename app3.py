@@ -46,19 +46,7 @@ def processMock(form):
     
     print(output['outputs']['out-2'] )
     return (output['outputs']['out-2'],output['outputs']['out-0'] )
-    # # Specify the HTML file name
-    # html_file_name = "C:\\Users\\ROG\\kclHacklondon\\templates\\test.html"
 
-    # # Read the content of the HTML file
-    # with open(html_file_name, "r") as html_file:
-    #     html_content = html_file.read()
-
-    # # Replace the placeholder with your Python string data
-    # updated_html_content = html_content.replace("{{ mockResult }}", output['outputs']['out-2'])
-
-    # # Write the updated content back to the HTML file
-    # with open(html_file_name, "w") as html_file:
-    #     html_file.write(updated_html_content)
 
 
 def query(payload):
@@ -82,11 +70,6 @@ def getResource(prompt):
     output = query1({"in-3":prompt,
                 "user_id":"""<USER or Conversation ID>"""})
     return (output['outputs']['out-4'])
-
-
-
-
-
 
 
 """
