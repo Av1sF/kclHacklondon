@@ -30,14 +30,14 @@ API keys
 # another interface is used because perplexity AI tokens limit is lower 
 PERPLEX_API_URL = "https://www.stack-inference.com/inference/v0/run/3d4904b4-95d8-4f91-8413-598cd6ad6e28/65ec7764f55f2d6ba176042d"
 perplex_headers = {'Authorization':
-			 'Bearer d6c868e4-dd77-433a-b8f6-40264a0fd870',
+			 'Bearer XXXXXXXXXXXXXXXXXXXX',
 			 'Content-Type': 'application/json'
 		}
 
 #StackAI API
 API_URL = "https://www.stack-inference.com/inference/v0/run/87a0f031-97dd-4577-a4c9-93c4ae154122/65ed800431b5c269a6c0b018"
 headers = {'Authorization':
-			 'Bearer 5064899d-f14e-4837-877f-e2b700d63f70',
+			 'Bearer XXXXXXXXXXXXXXXXXXXX',
 			 'Content-Type': 'application/json'
 		}
 
@@ -61,10 +61,10 @@ def processMock(form):
         context+=x
 
     # query StackAI to compare student answers to markscheme, identify weak areas; providing a summary on weak topics.  
-    output = query({"string-1":answers,'int-0':'Generate 3 A level type question with options','in-0':"Give a detailed summary of all the topics"
+    output = query({"string-1":answers,'int-0':'Generate 5 A level type question with options','in-0':"Give a detailed summary of all the topics"
                     ,'string-0':context})
- 
-    return (output['outputs']['out-2'],output['outputs']['out-0'] )
+    print(output)
+    return (output)
 
 # query with perplexity AI 
 def plex_query(payload):
@@ -89,7 +89,7 @@ def getResource(prompt):
     output = query({"in-1":"Find A-level resources (including links) for the following topics",'string-0':context,
                 "user_id":"""<USER or Conversation ID>"""})
     
-    return (output['outputs']['out-1'])
+    return (output)
 
 
 """
@@ -98,7 +98,7 @@ Flask server
 
 # initiate flask and socketio 
 app = Flask(__name__, static_url_path='/static')
-app.config['SECRET_KEY'] = 'fLd+D8YQ&i' 
+app.config['SECRET_KEY'] = 'REDACTED'
 sio = SocketIO(app)
 
 # templates to serve for each webpage 
