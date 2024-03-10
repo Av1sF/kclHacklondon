@@ -33,11 +33,33 @@ headers1 = {'Authorization':
 Processing functions 
 """
 def processMock(form):
-    name = request.form['Name']
-    email = request.form['Email']
-    msg = request.form['Message']
+    ans1 = request.form['Name']
+    ans2 = request.form['Email']
+    ans3 = request.form['Message']
+    string = f"{ans1}, {ans2}, {ans3}"
+    file = open('C:\\Users\\ROG\\kclHacklondon\\txtOutputs\\11.1.1. Structure and Function of the Processor','r')
+    str=''
+    for x in file:
+        str+=x
+    output = query1({"string-1":string,'int-0':'Generate 5 A level type question with options','in-0':"Give a detailed summary of all the topics"
+                    ,'string-0':str})
+    
+    print(output['outputs']['out-2'] )
+    return (output['outputs']['out-2'],output['outputs']['out-0'] )
+    # # Specify the HTML file name
+    # html_file_name = "C:\\Users\\ROG\\kclHacklondon\\templates\\test.html"
 
-    return (name, email, msg)
+    # # Read the content of the HTML file
+    # with open(html_file_name, "r") as html_file:
+    #     html_content = html_file.read()
+
+    # # Replace the placeholder with your Python string data
+    # updated_html_content = html_content.replace("{{ mockResult }}", output['outputs']['out-2'])
+
+    # # Write the updated content back to the HTML file
+    # with open(html_file_name, "w") as html_file:
+    #     html_file.write(updated_html_content)
+
 
 def query(payload):
  response = requests.post(API_URL, headers=headers, json=payload)
@@ -57,8 +79,9 @@ def getQuestion():
     return tuple(lst)
 
 def getResource(prompt):
-    return query({"in-0":prompt,
+    output = query1({"in-3":prompt,
                 "user_id":"""<USER or Conversation ID>"""})
+    return (output['outputs']['out-4'])
 
 
 

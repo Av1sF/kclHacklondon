@@ -19,7 +19,7 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Company<br>Name</b></h3>
+    <h3 class="w3-padding-64"><b>Potato<br>Revision</b></h3>
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
@@ -69,31 +69,47 @@ body {font-size:16px;}
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
 
-    
     <button type="submit" id="dummy" name="submit_button" value="initalise" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="showForm();">New Mock!</button>
 
 
     <form action="{{ url_for('index') }}" method="POST" id="mock" style="display: none;">
     <div class="w3-section">
-        <label>Name</label>
+        <label>1. What is the primary function of the Arithmetic and Logic Unit (ALU) in a processor?</label>
+        <p>
+            A) Completing arithmetical and logical operations
+            B) Managing the flow of data
+            C) Storing instructions in memory
+            D) Controlling the CPU activities
+        </p>
         <input class="w3-input w3-border" type="text" name="Name" required>
     </div>
     <div class="w3-section">
-        <label>Email</label>
+        <label>2. What type of operations does the ALU perform?</label>
+        <p>
+            A) Only arithmetical operations
+            B) Only logical operations
+            C) Both arithmetical and logical operations
+            D) None of the above
+        </p>
         <input class="w3-input w3-border" type="text" name="Email" required>
     </div>
     <div class="w3-section">
-        <label>Message</label>
+        <label>3. What is the role of the Control Unit in a processor?</label>
+        <p>
+            A) Controlling and coordinating CPU activities
+            B) Managing the flow of data
+            C) Accepting the next instruction
+            D) Decoding instructions
+        </p>
         <input class="w3-input w3-border" type="text" name="Message" required>
     </div>
     <button type="submit" name="submit_button" value="form" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Submit Answers</button>
     </form>  
-
+    
     {% if mockResults %}
         <p id="suggestions">
             {{mockResults[0]}}
             {{mockResults[1]}}
-            {{mockResults[2]}}
         </p>
     {% endif %}
 
@@ -107,10 +123,9 @@ body {font-size:16px;}
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <p>Summarisation and Resource Suggestions</p>
     <p>
-      ooga booga and click into these different topics for citation suggestions and stuff not
-      as tailor made as the mock but it is very cool wooooooo 
+      
     </p>
-    <p><b>Our answers are thoughtfully chosen</b>:</p>
+    
 
     <form action="{{ url_for('topic') }}" method="POST" id="topic" style="display: block;">
         <button type="submit" name="submit_button" value="CCP" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">
