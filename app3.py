@@ -55,13 +55,13 @@ def processMock(form):
     answers = f"{ans1}, {ans2}, {ans3}"
 
     # concatenate lines in file into  string
-    file = open(os.path.abspath("txtOutputs\\11.1.1. Structure and Function of the Processor"),'r')
+    file = open(os.path.abspath("knowledgebase\\11.1.1. Structure and Function of the Processor"),'r')
     context=''
     for x in file:
         context+=x
 
     # query StackAI to compare student answers to markscheme, identify weak areas; providing a summary on weak topics.  
-    output = query({"string-1":answers,'int-0':'Generate 5 A level type question with options','in-0':"Give a detailed summary of all the topics"
+    output = query({"string-1":answers,'int-0':'Generate 3 A level type question with options','in-0':"Give a detailed summary of all the topics"
                     ,'string-0':context})
  
     return (output['outputs']['out-2'],output['outputs']['out-0'] )
@@ -80,7 +80,7 @@ def query(payload):
 def getResource(prompt):
 
     # concatenate lines in file into single string
-    file = open(os.path.abspath("txtOutputs\\163.4. Searching Algorithms - Concise"), encoding='utf-8')
+    file = open(os.path.abspath("knowledgebase\\163.4. Searching Algorithms - Concise"), encoding='utf-8')
     context=''
     for x in file:
         context+=x
