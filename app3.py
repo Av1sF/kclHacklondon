@@ -23,6 +23,12 @@ headers = {'Authorization':
 			 'Content-Type': 'application/json'
 		}
 
+API_URL1 = "https://www.stack-inference.com/inference/v0/run/87a0f031-97dd-4577-a4c9-93c4ae154122/65ed800431b5c269a6c0b018"
+headers1 = {'Authorization':
+			 'Bearer 5064899d-f14e-4837-877f-e2b700d63f70',
+			 'Content-Type': 'application/json'
+		}
+
 """
 Processing functions 
 """
@@ -35,6 +41,10 @@ def processMock(form):
 
 def query(payload):
  response = requests.post(API_URL, headers=headers, json=payload)
+ return response.json()
+
+def query1(payload):
+ response = requests.post(API_URL1, headers=headers1, json=payload)
  return response.json()
 
 def getResource(prompt):
@@ -66,17 +76,6 @@ def index():
     if request.method == 'POST':
         form = request.form
         mockResults = processMock(form)
-        # if request.form['submit_button'] == 'form':
-            
-
-        # elif request.form['submit_button'] == 'initalise':
-        #     initaliseMock = True
-
-        # elif request.form['submit_button'] in list(unitTopic.keys()):
-        #     print(request.form['submit_button'])
-        #     topics = unitTopic.get(request.form['submit_button'])
-        #     prompt = """Find resources on the internet that are primarily related to "+ topics +", give links for A-level related resources for students"""
-        #     topic = getResource(prompt)
 
     return render_template('test.html', mockResults=mockResults, topic=topic)
 
