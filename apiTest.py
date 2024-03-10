@@ -13,6 +13,6 @@ def query(payload):
 
 prompt = """Find resources on the internet that are primarily related to boolean algebra, data types and data structures, give links for A-level related resources for students"""
 
-output = query({"in-0": """Find resources on the internet that are primarily related to boolean algebra, data types and data structures, give links for A-level related resources for students""",
-                 "user_id": """d6c868e4-dd77-433a-b8f6-40264a0fd870"""})
+output = query({"in-0":prompt,
+                 "user_id": """8d310d7b-ca8d-4578-b864-6b31a757ec56"""})
 print(output)
