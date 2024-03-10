@@ -47,10 +47,20 @@ def query1(payload):
  response = requests.post(API_URL1, headers=headers1, json=payload)
  return response.json()
 
+def getQuestion():
+    output = query1({"in-2": """Generate 5 A-level objective type questions from the following information
+(give A ,B,C,D). List all the questions below Add a slash after listing all options to seperate each question from the previous one.""", 
+"user_id": """<USER or Conversation ID>"""})
+    
+    lst = output['outputs']['out-3'].split(" /")
+    print(lst)
+    return tuple(lst)
+
 def getResource(prompt):
     return query({"in-0":prompt,
                 "user_id":"""<USER or Conversation ID>"""})
-    
+
+
 
 
 
@@ -72,17 +82,19 @@ def index():
     initaliseMock = False
     mockResults = False
     topic = False
+    question = False
 
     if request.method == 'POST':
         form = request.form
         mockResults = processMock(form)
 
-    return render_template('test.html', mockResults=mockResults, topic=topic)
+    return render_template('test.html', mockResults=mockResults, topic=topic, question=question)
 
 @app.route('/topic', methods=['GET', 'POST'])
 def topic():
     mockResults = False 
     topic = False
+    question = False
 
     if request.method == 'POST':
         form = request.form
@@ -90,7 +102,19 @@ def topic():
         topic = getResource(topics)
         print(topic)
 
-    return render_template('test.html', mockResults=mockResults, topic=topic)
+    return render_template('test.html', mockResults=mockResults, topic=topic, question=question)
+
+@app.route('/question', methods=['GET', 'POST'])
+def question():
+    mockResults = False 
+    topic = False
+    question = False
+
+    if request.method == 'POST':
+        form = request.form
+        question = getQuestion()
+
+    return render_template('test.html', mockResults=mockResults, topic=topic, question=question)
 
 """
 SocketIO event handlers 
