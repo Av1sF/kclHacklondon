@@ -39,7 +39,7 @@ def query(payload):
 
 def getResource(prompt):
     return query({"in-0":prompt,
-                "user_id":"""d6c868e4-dd77-433a-b8f6-40264a0fd870"""})
+                "user_id":"""<USER or Conversation ID>"""})
     
 
 
@@ -61,7 +61,7 @@ sio = SocketIO(app)
 def index():
     initaliseMock = False
     mockResults = False
-    topic = ""
+    topic = false
 
     if request.method == 'POST':
         form = request.form
@@ -80,6 +80,9 @@ def index():
 
     return render_template('test.html', mockResults=mockResults)
 
+@app.route('/topic', methods=['GET', 'POST'])
+def topic():
+    topic = false
 
 """
 SocketIO event handlers 
